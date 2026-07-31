@@ -19,13 +19,12 @@ Regeln für Telefon/E-Mail:
 - Der Gast chattet bereits mit dir — weitere Fragen kann er hier stellen."""
 
 TRAILING_PHONE_BOILERPLATE = re.compile(
-    r"(?:[\s\n]*(?:"
-    r"Bitte rufen Sie(?: uns)?(?: bitte)?(?: an)?:?\s*06032[\s\d]*"
-    r"(?:,?\s*(?:wenn|falls) Sie (?:noch )?weitere Fragen haben)?"
-    r"|(?:Bei|Für) (?:weitere|noch) Fragen(?: rufen Sie(?: uns)?(?: bitte)?(?: an)?:?\s*06032[\s\d]*)?"
-    r"|(?:Wenn|Falls) Sie (?:noch )?weitere Fragen haben,?\s*"
-    r"(?:rufen Sie(?: uns)?(?: bitte)?(?: an)?:?\s*06032[\s\d]*|kann ich gern weiterhelfen)\.?"
-    r"))+\.?\s*$",
+    r"[\s\n]*(?:"
+    r"Bitte rufen Sie(?: uns)?(?: bitte)?(?: an)?[:\s]*06032[\s\d]*(?:\s*an)?"
+    r"(?:,?\s*(?:wenn|falls) Sie (?:noch )?weitere Fragen haben)?\.?"
+    r"|(?:Bei|Für) (?:weitere[n]?|noch) Fragen(?:[^.]*06032[\s\d]*[^.]*)?\.?"
+    r"|(?:Wenn|Falls) Sie (?:noch )?weitere Fragen haben(?:[^.]*)?\.?"
+    r")\s*$",
     re.IGNORECASE,
 )
 
