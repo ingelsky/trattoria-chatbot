@@ -57,7 +57,7 @@
     "  box-shadow: 0 8px 32px rgba(9, 65, 68, 0.28);",
     "  max-width: min(340px, calc(100vw - 24px));",
     "  text-align: left;",
-    "  transition: transform 0.2s ease, box-shadow 0.2s ease, padding 0.25s ease, border-color 0.25s ease, background 0.25s ease;",
+    "  transition: transform 0.2s ease, box-shadow 0.25s ease, padding 0.35s ease, border-color 0.35s ease, background 0.35s ease, border-radius 0.35s ease, gap 0.35s ease;",
     "}",
     "#lt-chat-launcher:hover {",
     "  transform: translateY(-2px);",
@@ -100,7 +100,7 @@
     "  display: grid;",
     "  place-items: center;",
     "  box-shadow: 0 4px 14px rgba(9, 65, 68, 0.35);",
-    "  transition: width 0.25s ease, height 0.25s ease;",
+    "  transition: width 0.25s ease, height 0.25s ease, box-shadow 0.35s ease;",
     "}",
     "#lt-chat-icon svg {",
     "  width: 26px;",
@@ -108,20 +108,24 @@
     "}",
     "#lt-chat-root.is-compact #lt-chat-launcher {",
     "  padding: 0;",
+    "  gap: 0;",
     "  border-color: transparent;",
+    "  border-radius: 50%;",
     "  background: transparent;",
     "  box-shadow: none;",
+    "  animation: none;",
     "}",
     "#lt-chat-root.is-compact #lt-chat-icon {",
     "  width: 56px;",
     "  height: 56px;",
+    "  animation: none;",
     "}",
     "#lt-chat-root.is-teaser-visible #lt-chat-teaser {",
     "  max-width: 280px;",
     "  opacity: 1;",
     "}",
-    "#lt-chat-root.is-teaser-visible #lt-chat-launcher {",
-    "  animation: lt-chat-attention 2.8s ease-in-out 1;",
+    "#lt-chat-root.is-teaser-visible #lt-chat-icon {",
+    "  animation: lt-chat-icon-pulse 2.8s ease-in-out 1;",
     "}",
     "#lt-chat-root.is-open #lt-chat-teaser {",
     "  max-width: 0;",
@@ -139,9 +143,9 @@
     "  width: 56px;",
     "  height: 56px;",
     "}",
-    "@keyframes lt-chat-attention {",
-    "  0%, 100% { box-shadow: 0 8px 32px rgba(9, 65, 68, 0.28); }",
-    "  50% { box-shadow: 0 8px 32px rgba(9, 65, 68, 0.28), 0 0 0 6px rgba(200, 161, 95, 0.28); }",
+    "@keyframes lt-chat-icon-pulse {",
+    "  0%, 100% { box-shadow: 0 4px 14px rgba(9, 65, 68, 0.35); }",
+    "  50% { box-shadow: 0 4px 14px rgba(9, 65, 68, 0.35), 0 0 0 4px rgba(200, 161, 95, 0.3); }",
     "}",
     "@media (max-width: 480px) {",
     "  #lt-chat-root { right: 12px; bottom: 12px; }",
@@ -220,6 +224,9 @@
   function hideTeaser() {
     root.classList.remove("is-teaser-visible");
     root.classList.add("is-compact");
+    launcher.style.animation = "none";
+    var icon = launcher.querySelector("#lt-chat-icon");
+    if (icon) icon.style.animation = "none";
     teaserDismissed = true;
     if (teaserHideTimer) {
       clearTimeout(teaserHideTimer);

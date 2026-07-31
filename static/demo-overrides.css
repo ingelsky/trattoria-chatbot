@@ -31,8 +31,14 @@
 }
 
 /* Chat launcher — La Trattoria colors (#094144, #c8a15f) */
-#lt-chat-launcher {
+#lt-chat-root.is-teaser-visible #lt-chat-launcher {
   border-color: #c8a15f !important;
+}
+
+#lt-chat-root.is-compact #lt-chat-launcher,
+#lt-chat-root.is-open #lt-chat-launcher {
+  border-color: transparent !important;
+  box-shadow: none !important;
 }
 
 #lt-chat-teaser-title {
