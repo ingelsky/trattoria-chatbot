@@ -5,7 +5,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -100,6 +100,11 @@ def get_bot(session_id: str) -> ChatBot:
     if session_id not in sessions:
         sessions[session_id] = ChatBot()
     return sessions[session_id]
+
+
+@app.get("/")
+def root() -> RedirectResponse:
+    return RedirectResponse(url="/demo")
 
 
 @app.get("/widget")
