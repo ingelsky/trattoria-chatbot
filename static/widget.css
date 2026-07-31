@@ -226,7 +226,7 @@ body {
   display: flex;
 }
 
-.reservation-toolbar {
+.menu-toolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -236,30 +236,53 @@ body {
   background: #fffdf9;
 }
 
-.step-label {
-  font-size: 0.75rem;
-  color: #8a7568;
+.menu-title {
+  font-size: 0.85rem;
+  color: #094144;
+  font-weight: 600;
   flex: 1;
   text-align: center;
 }
 
-.reservation-step {
-  display: none;
-  flex: 1;
-  flex-direction: column;
-  min-height: 0;
-  overflow: hidden;
-}
-
-.reservation-step.step-active {
-  display: flex;
-}
-
-.reservation-hint {
+.menu-hint {
   margin: 0;
   padding: 10px 12px 0;
   font-size: 0.78rem;
   color: #8a7568;
+}
+
+.menu-footer {
+  padding: 10px 12px;
+  border-top: 1px solid #e8ddd0;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.menu-phone {
+  margin: 0;
+  text-align: center;
+  font-size: 0.82rem;
+  color: #8a7568;
+}
+
+.menu-phone a {
+  color: #a87855;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu-phone a:hover {
+  color: #c8a15f;
+}
+
+.menu-error {
+  margin: 0 12px;
+  padding: 10px 12px;
+  background: #fdecea;
+  border: 1px solid #f5c6c2;
+  border-radius: 4px;
+  color: #b71c1c;
+  font-size: 0.82rem;
 }
 
 .menu-loading {

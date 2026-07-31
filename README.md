@@ -14,7 +14,7 @@ Embeddable AI chatbot for [La Trattoria da Massimo](https://www.latrattoria-da-m
 
 - RAG-powered answers from the real Speisekarte (PDF) + restaurant info
 
-- **Reservierung flow**: pick dishes & drinks from menu, submit reservation request
+- **Speisekarte**: browse full menu by category (dishes & drinks with prices)
 
 - German-language assistant for menu, allergens, hours, reservations
 

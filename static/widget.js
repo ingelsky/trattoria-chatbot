@@ -8,102 +8,24 @@ const closeBtn = document.getElementById("close-btn");
 const headerSubtitle = document.getElementById("header-subtitle");
 
 const chatView = document.getElementById("chat-view");
-const reservationView = document.getElementById("reservation-view");
-const reservationBtn = document.getElementById("reservation-btn");
+const menuView = document.getElementById("menu-view");
+const menuBtn = document.getElementById("menu-btn");
 const backToChatBtn = document.getElementById("back-to-chat");
-const backToMenuBtn = document.getElementById("back-to-menu");
-const toCheckoutBtn = document.getElementById("to-checkout-btn");
-const stepLabel = document.getElementById("step-label");
-const stepMenu = document.getElementById("step-menu");
-const stepCheckout = document.getElementById("step-checkout");
 
 const menuLoading = document.getElementById("menu-loading");
 const menuError = document.getElementById("menu-error");
 const categoryTabsEl = document.getElementById("category-tabs");
 const menuItemsEl = document.getElementById("menu-items");
-const cartBadgeEl = document.getElementById("cart-badge");
-const cartListEl = document.getElementById("cart-list");
-const cartTotalEl = document.getElementById("cart-total");
-const cartEmptyHint = document.getElementById("cart-empty-hint");
-const reservationForm = document.getElementById("reservation-form");
-const reservationError = document.getElementById("reservation-error");
 
 let menuCategories = [];
 let activeCategoryId = null;
 let menuLoaded = false;
-const cart = new Map();
-
-function parsePrice(value) {
-  const match = String(value).match(/([\d,]+)/);
-  if (!match) return 0;
-  return parseFloat(match[1].replace(",", "."));
-}
-
-function formatTotal(amount) {
-  return `€ ${amount.toFixed(2).replace(".", ",")}`;
-}
-
-function cartCount() {
-  let total = 0;
-  cart.forEach((item) => {
-    total += item.qty;
-  });
-  return total;
-}
-
-function cartTotalAmount() {
-  let total = 0;
-  cart.forEach((item) => {
-    total += parsePrice(item.price) * item.qty;
-  });
-  return total;
-}
-
-function updateCartUi() {
-  const count = cartCount();
-  cartBadgeEl.textContent = String(count);
-  toCheckoutBtn.textContent =
-    count > 0
-      ? `Weiter zur Reservierung (${count})`
-      : "Weiter zur Reservierung";
-}
 
 function showPanel(panel) {
   chatView.classList.toggle("panel-active", panel === "chat");
-  reservationView.classList.toggle("panel-active", panel === "reservation");
+  menuView.classList.toggle("panel-active", panel === "menu");
   headerSubtitle.textContent =
-    panel === "chat" ? "KI-Assistent · Bad Nauheim" : "Reservierung · Bad Nauheim";
-}
-
-function showReservationStep(step) {
-  const isMenu = step === "menu";
-  stepMenu.classList.toggle("step-active", isMenu);
-  stepCheckout.classList.toggle("step-active", !isMenu);
-  stepLabel.textContent = isMenu ? "Schritt 1: Speisekarte" : "Schritt 2: Reservierung";
-}
-
-function cartKey(itemId) {
-  return itemId;
-}
-
-function getCartQty(itemId) {
-  return cart.get(cartKey(itemId))?.qty || 0;
-}
-
-function setCartQty(item, qty) {
-  const key = cartKey(item.id);
-  if (qty <= 0) {
-    cart.delete(key);
-  } else {
-    cart.set(key, {
-      id: item.id,
-      name: item.name,
-      price: item.price,
-      qty,
-    });
-  }
-  updateCartUi();
-  renderMenuItems();
+    panel === "chat" ? "KI-Assistent · Bad Nauheim" : "Speisekarte · Bad Nauheim";
 }
 
 function renderCategoryTabs() {
@@ -151,50 +73,9 @@ function renderMenuItems() {
     price.textContent = item.price;
     info.appendChild(price);
 
-    const controls = document.createElement("div");
-    controls.className = "qty-controls";
-    const current = getCartQty(item.id);
-
-    const minusBtn = document.createElement("button");
-    minusBtn.type = "button";
-    minusBtn.className = "qty-btn";
-    minusBtn.textContent = "−";
-    minusBtn.disabled = current === 0;
-    minusBtn.addEventListener("click", () => setCartQty(item, current - 1));
-
-    const qtyLabel = document.createElement("span");
-    qtyLabel.className = "qty-value";
-    qtyLabel.textContent = String(current);
-
-    const plusBtn = document.createElement("button");
-    plusBtn.type = "button";
-    plusBtn.className = "qty-btn";
-    plusBtn.textContent = "+";
-    plusBtn.addEventListener("click", () => setCartQty(item, current + 1));
-
-    controls.append(minusBtn, qtyLabel, plusBtn);
-    row.append(info, controls);
+    row.appendChild(info);
     menuItemsEl.appendChild(row);
   });
-}
-
-function renderCart() {
-  cartListEl.innerHTML = "";
-
-  if (cart.size === 0) {
-    cartEmptyHint.hidden = false;
-    cartTotalEl.textContent = "";
-    return;
-  }
-
-  cartEmptyHint.hidden = true;
-  cart.forEach((item) => {
-    const row = document.createElement("div");
-    row.className = "cart-row";
-    row.innerHTML = `<span>${item.name} × ${item.qty}</span><span>${item.price}</span>`;
-    cartListEl.appendChild(row);
-  });
-  cartTotalEl.textContent = `Gesamt (ca.): ${formatTotal(cartTotalAmount())}`;
 }
 
 async function loadMenu() {
@@ -223,16 +104,15 @@ async function loadMenu() {
   }
 }
 
-async function openReservation() {
-  reservationError.hidden = true;
-  showPanel("reservation");
-  showReservationStep("menu");
+async function openMenu() {
+  menuError.hidden = true;
+  showPanel("menu");
 
   if (!menuLoaded) {
     try {
       await loadMenu();
     } catch {
-      /* error shown in menuError — user can still go to checkout without items */
+      /* error shown in menuError */
     }
   } else {
     renderCategoryTabs();
@@ -327,78 +207,8 @@ async function sendMessage(text) {
   }
 }
 
-reservationBtn.addEventListener("click", openReservation);
+menuBtn.addEventListener("click", openMenu);
 backToChatBtn.addEventListener("click", () => showPanel("chat"));
-backToMenuBtn.addEventListener("click", () => showReservationStep("menu"));
-
-toCheckoutBtn.addEventListener("click", () => {
-  renderCart();
-  showReservationStep("checkout");
-});
-
-reservationForm.addEventListener("submit", async (event) => {
-  event.preventDefault();
-  reservationError.hidden = true;
-
-  const formData = new FormData(reservationForm);
-  const payload = {
-    name: String(formData.get("name") || "").trim(),
-    phone: String(formData.get("phone") || "").trim(),
-    date: String(formData.get("date") || "").trim(),
-    time: String(formData.get("time") || "").trim(),
-    guests: Number(formData.get("guests")),
-    note: String(formData.get("note") || "").trim(),
-    items: Array.from(cart.values()),
-  };
-
-  const submitBtn = reservationForm.querySelector(".submit-reservation-btn");
-  submitBtn.disabled = true;
-  submitBtn.textContent = "Wird gesendet...";
-
-  try {
-    const response = await fetch("/api/reservation", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
-
-    const data = await response.json().catch(() => ({}));
-    if (!response.ok) {
-      throw new Error(
-        typeof data.detail === "string"
-          ? data.detail
-          : "Reservierung konnte nicht gesendet werden."
-      );
-    }
-
-    const itemsSummary =
-      payload.items.length > 0
-        ? `\n🍽 ${payload.items.length} Gericht(e) vorausgewählt`
-        : "";
-
-    cart.clear();
-    updateCartUi();
-    reservationForm.reset();
-    showPanel("chat");
-    showReservationStep("menu");
-
-    appendMessage(
-      "assistant",
-      `Grazie! Ihre Reservierung wurde gesendet.\n\n` +
-        `📅 ${payload.date} um ${payload.time}\n` +
-        `👥 ${payload.guests} Personen\n` +
-        `📞 ${payload.phone}${itemsSummary}\n\n` +
-        `Wir bestätigen in Kürze. Tel: 06032 9359977.`
-    );
-  } catch (error) {
-    reservationError.textContent =
-      error.message || "Bitte rufen Sie uns an: 06032 9359977.";
-    reservationError.hidden = false;
-  } finally {
-    submitBtn.disabled = false;
-    submitBtn.textContent = "Reservierung senden";
-  }
-});
 
 formEl.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -424,10 +234,3 @@ document.querySelectorAll(".quick-btn[data-prompt]").forEach((button) => {
 closeBtn.addEventListener("click", () => {
   window.parent.postMessage({ type: "lt-chat-close" }, "*");
 });
-
-const dateInput = reservationForm.querySelector('input[name="date"]');
-if (dateInput) {
-  dateInput.min = new Date().toISOString().split("T")[0];
-}
-
-updateCartUi();
