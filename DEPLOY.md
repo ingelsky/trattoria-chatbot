@@ -46,7 +46,10 @@ git commit -m "Initial trattoria chatbot"
 
 git branch -M main
 
-git remote add origin https://github.com/YOUR_USERNAME/trattoria-chatbot.git
+# Replace INGELSKY with your GitHub username (e.g. ingelsky)
+git remote add origin https://github.com/INGELSKY/trattoria-chatbot.git
+# If origin already exists with wrong URL:
+# git remote set-url origin https://github.com/INGELSKY/trattoria-chatbot.git
 
 git push -u origin main
 
