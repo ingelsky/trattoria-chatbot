@@ -4,6 +4,9 @@
   var script = document.currentScript;
   var serverUrl = (script && script.getAttribute("data-server")) || new URL(script.src).origin;
 
+  var TEASER_DELAY_MS = 1000;
+  var TEASER_VISIBLE_MS = 5000;
+
   var styles = document.createElement("style");
   styles.textContent = [
     "#lt-chat-root {",
@@ -54,8 +57,7 @@
     "  box-shadow: 0 8px 32px rgba(9, 65, 68, 0.28);",
     "  max-width: min(340px, calc(100vw - 24px));",
     "  text-align: left;",
-    "  transition: transform 0.2s ease, box-shadow 0.2s ease, padding 0.2s ease;",
-    "  animation: lt-chat-attention 2.8s ease-in-out 2;",
+    "  transition: transform 0.2s ease, box-shadow 0.2s ease, padding 0.25s ease, border-color 0.25s ease, background 0.25s ease;",
     "}",
     "#lt-chat-launcher:hover {",
     "  transform: translateY(-2px);",
@@ -70,17 +72,23 @@
     "  flex-direction: column;",
     "  gap: 2px;",
     "  min-width: 0;",
+    "  overflow: hidden;",
+    "  max-width: 0;",
+    "  opacity: 0;",
+    "  transition: max-width 0.35s ease, opacity 0.35s ease;",
     "}",
     "#lt-chat-teaser-title {",
     "  font-size: 0.92rem;",
     "  font-weight: 700;",
     "  line-height: 1.25;",
     "  color: #094144;",
+    "  white-space: nowrap;",
     "}",
     "#lt-chat-teaser-text {",
     "  font-size: 0.78rem;",
     "  line-height: 1.35;",
     "  color: #5c3d2e;",
+    "  white-space: nowrap;",
     "}",
     "#lt-chat-icon {",
     "  width: 52px;",
@@ -92,13 +100,32 @@
     "  display: grid;",
     "  place-items: center;",
     "  box-shadow: 0 4px 14px rgba(9, 65, 68, 0.35);",
+    "  transition: width 0.25s ease, height 0.25s ease;",
     "}",
     "#lt-chat-icon svg {",
     "  width: 26px;",
     "  height: 26px;",
     "}",
+    "#lt-chat-root.is-compact #lt-chat-launcher {",
+    "  padding: 0;",
+    "  border-color: transparent;",
+    "  background: transparent;",
+    "  box-shadow: none;",
+    "}",
+    "#lt-chat-root.is-compact #lt-chat-icon {",
+    "  width: 56px;",
+    "  height: 56px;",
+    "}",
+    "#lt-chat-root.is-teaser-visible #lt-chat-teaser {",
+    "  max-width: 280px;",
+    "  opacity: 1;",
+    "}",
+    "#lt-chat-root.is-teaser-visible #lt-chat-launcher {",
+    "  animation: lt-chat-attention 2.8s ease-in-out 1;",
+    "}",
     "#lt-chat-root.is-open #lt-chat-teaser {",
-    "  display: none;",
+    "  max-width: 0;",
+    "  opacity: 0;",
     "}",
     "#lt-chat-root.is-open #lt-chat-launcher {",
     "  padding: 0;",
@@ -123,18 +150,28 @@
     "    height: calc(100vh - 96px);",
     "  }",
     "  #lt-chat-teaser-text {",
-    "    display: none;",
+    "    white-space: normal;",
+    "    max-width: 180px;",
     "  }",
     "  #lt-chat-teaser-title {",
     "    font-size: 0.84rem;",
+    "    white-space: normal;",
     "  }",
-    "  #lt-chat-launcher {",
+    "  #lt-chat-root.is-teaser-visible #lt-chat-teaser {",
+    "    max-width: 190px;",
+    "  }",
+    "  #lt-chat-root.is-teaser-visible #lt-chat-launcher {",
     "    padding: 10px 12px 10px 14px;",
     "    gap: 10px;",
     "  }",
     "  #lt-chat-icon {",
     "    width: 46px;",
     "    height: 46px;",
+    "  }",
+    "  #lt-chat-root.is-compact #lt-chat-icon,",
+    "  #lt-chat-root.is-open #lt-chat-icon {",
+    "    width: 52px;",
+    "    height: 52px;",
     "  }",
     "}",
   ].join("\n");
@@ -147,6 +184,7 @@
 
   var root = document.createElement("div");
   root.id = "lt-chat-root";
+  root.classList.add("is-compact");
 
   var panel = document.createElement("div");
   panel.id = "lt-chat-panel";
@@ -175,11 +213,43 @@
   document.body.appendChild(root);
 
   var isOpen = false;
+  var teaserDismissed = false;
+  var teaserHideTimer = null;
+  var teaserDone = false;
+
+  function hideTeaser() {
+    root.classList.remove("is-teaser-visible");
+    root.classList.add("is-compact");
+    teaserDismissed = true;
+    if (teaserHideTimer) {
+      clearTimeout(teaserHideTimer);
+      teaserHideTimer = null;
+    }
+  }
+
+  function showTeaserBriefly() {
+    if (isOpen || teaserDismissed || teaserDone) return;
+    teaserDone = true;
+
+    root.classList.remove("is-compact");
+    root.classList.add("is-teaser-visible");
+
+    teaserHideTimer = setTimeout(function () {
+      if (!isOpen) hideTeaser();
+    }, TEASER_VISIBLE_MS);
+  }
+
+  setTimeout(showTeaserBriefly, TEASER_DELAY_MS);
 
   function setOpen(open) {
     isOpen = open;
     panel.classList.toggle("is-open", open);
     root.classList.toggle("is-open", open);
+
+    if (open) {
+      hideTeaser();
+    }
+
     launcher.setAttribute(
       "aria-label",
       open ? "KI-Assistent schließen" : "KI-Assistent öffnen"
