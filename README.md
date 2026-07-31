@@ -16,7 +16,7 @@ Embeddable AI chatbot for [La Trattoria da Massimo](https://www.latrattoria-da-m
 
 - **Speisekarte**: browse full menu by category (dishes & drinks with prices)
 
-- German-language assistant for menu, allergens, hours, reservations
+- German-language assistant for menu, allergens, hours; replies in the guest's language when they write in another language
 
 - One-line embed script for the client's website
 
