@@ -11,7 +11,7 @@ Raffinierter Eintopf mit Edelfischen
 € 22,90
 - Insalate / Salat -
 3. Insalata Italia
-gemischter Salat mit Tomaten, Gurken, Karotten, 
+gemischter Salat mit Tomaten, Gurken, Karotten,
 Paprika, Käse, Vorderschinken, Eier, Thunfisch, roten Zwiebeln und Mais
 € 16,90
 4. Insalata di Pollo
@@ -22,8 +22,8 @@ gebratenem Hähnchenbrustfilet, roten Zwiebeln und Mais
 gemischter Salat mit Tomaten, Gurken,
 Paprika, gebratenem Lachs, roten Zwiebeln und Mais
 € 19,90
-6. Insalata di Gamberi 
-gemischter Salat mit Tomaten, Gurken, Zwiebeln, Paprika, 
+6. Insalata di Gamberi
+gemischter Salat mit Tomaten, Gurken, Zwiebeln, Paprika,
 gebratenen Gambas, roten Zwiebeln und Mais
 € 20,50
 7. Insalata Caprese
@@ -52,7 +52,7 @@ Unsere Salate werden auf Wunsch mit Essig und Öl oder Joghurtdressing oder Honi
 5, G
 5, I
 
- 
+
 - Tapas / Vorspeisen -
 20. Chipirones All` aglio
 baby Kalamari in Knoblauchsauce
@@ -95,9 +95,9 @@ C, D
 29. Carpaccio di Manzo
 Rindercarpaccio mit Champignons, Sellerie, Ruccola und Parmesankäse
 € 19,90
- 
+
 31. Tartara di Manzo con tuorlo fritto
-Rindertatar mit Spiegeleigelb und Pizzaiola-Sauce-Mayonnaise. 
+Rindertatar mit Spiegeleigelb und Pizzaiola-Sauce-Mayonnaise.
 € 23,90
 33. Gambas al ajillo
 Party-Garnelen mit Knoblauch und Öl
@@ -123,18 +123,18 @@ B
 Hausgemachte Ravioli mit Steinpilz-Füllung in verschidenen Pilzsaucen
 € 24,90
 41. Mezzelune Vegetariane
-Frische vegetarische Ravioloni, gefüllt mit Grillgemüse in einer Butter–Salbeisauce 
+Frische vegetarische Ravioloni, gefüllt mit Grillgemüse in einer Butter–Salbeisauce
 € 22,90
 43. Gnocconi al Tartufo
 Frische Riesengnocconi, gefüllt mit Trüffel in einer Butter-Parmesansauce,
-dazu geriebener Schwarztrüffel 
+dazu geriebener Schwarztrüffel
 € 25,90
 44. Fiocchetti con Pere e crema di Tartufo
 Hausgemachte Nudeln mit Birne und Käsefüllung in einer Trüffelcremesauce,
-dazu geriebener Schwarztrüffel 
+dazu geriebener Schwarztrüffel
 € 25,90
 47. Tortellone Nero
-Frische Schwarzetortelloni, gefüllt mit Lachs in einer Gambas-Hummersauce 
+Frische Schwarzetortelloni, gefüllt mit Lachs in einer Gambas-Hummersauce
 € 23,90
 63. Lasagna con Vitello e Ricotta
 mit Kalbsragout und Ricotta
@@ -148,7 +148,7 @@ Spanisches Reisgericht mit Fleisch, Fisch und Gemüse
 49. Paella Marisco (ab 2 Personen)
 Spanisches Reisgericht mit Fisch
 € 27,90 (pro person)
-     vegetarisch
+ vegetarisch
 A, I
 A, I
 1, A, G
@@ -159,7 +159,7 @@ A, I
 1 , D, B, I
 1 , D, B, I
 
-- Salse per Pasta  / Nudeln Sauce -
+- Salse per Pasta / Nudeln Sauce -
 diese Saucen können mit folgenden hausgemachten Nudeln bestellt werden:
 Tagliolini, Paccheri, Tagliatelle, Penne, Spaghetti,
 Gnocchi, Strozzapretti. (Penne und Glutenfreie Spaghetti)
@@ -176,7 +176,7 @@ mit Knoblauch, Olivenöl und Pepperoni (scharf)
 mit Oliven, Pepperoni und scharfer Tomatensauce
 € 16,90
 56. Salmone e Zucchini
-mit Zucchini und Lachs in Safransauce 
+mit Zucchini und Lachs in Safransauce
 € 22,90
 58. Cacio e Pepe
 Parmesan-Schwarzpfeffersauce vom Parmesan-Laib
@@ -193,21 +193,21 @@ I, G
  5
 G, C
 
-- Salse per Pasta  / Nudeln Sauce -
+- Salse per Pasta / Nudeln Sauce -
 diese Sauce können mit folgenden hausgemachten Nudeln bestellt werden:
-Tagliolini, Paccheri, Tagliatelle, Penne, Spaghetti, 
+Tagliolini, Paccheri, Tagliatelle, Penne, Spaghetti,
 Gnocchi, Strozzapretti, . (Penne und Glutenfreie Spaghetti)
 61. Napoli e Burrata
 Tomatensauce mit Burrata-Mozzarella
 € 18,90
 62. Al Parmiggiano
-mit Butter-Parmesansauce vom Parmesan-Laib 
+mit Butter-Parmesansauce vom Parmesan-Laib
 € 22,90
 65. Frutti di Mare
 mit Meeresfrüchten in Tomatensauce
 € 25,90
 66. Estate
-mit Gambas, Curry und Kokosmilch in Sahnesauce 
+mit Gambas, Curry und Kokosmilch in Sahnesauce
 € 21,90
 67. Pollo e Funghi
 mit Hühnchen und Champignons in Sahne-Rahmsauce
@@ -215,7 +215,7 @@ mit Hühnchen und Champignons in Sahne-Rahmsauce
 68. Aglio, Olio e Gamberi
 Knoblauch, Öl, Partygarnelen und getrockneten Tomaten
 € 21,90
-69. Alla Chef 
+69. Alla Chef
 mit Pffeferlingen und Rinderfiletspitzen in Tomatensauce
 € 24,90
 45. Ragout alla Bolognese
@@ -241,27 +241,27 @@ Gebratene Kalbs Medaillons mit Champignons in Rahmsauce
 dazu Kartoffeln und Gemüse der Saison
 € 29,90
 71. Saltimbocca alla Romana
-Gebratene Kalbs Medaillons mit Salbei und Parmaschinken in einer 
+Gebratene Kalbs Medaillons mit Salbei und Parmaschinken in einer
 Weißweinsauce, dazu Kartoffeln und Gemüse der Saison
 € 29,90
 72. Tagliata di Scottona
-Argentinisches Black Angus (250g) geschnitten auf Rucola mit 
+Argentinisches Black Angus (250g) geschnitten auf Rucola mit
 Parmesan und Kirschtomaten, dazu Kartoffeln und Gemüse der Saison
 € 39,90
 73. Bistecca di Manzo
-Rinder Rumpsteak mit frischen mediterranen Kräutern, 
+Rinder Rumpsteak mit frischen mediterranen Kräutern,
 dazu Kartoffeln und Gemüse
 € 37,90
 74. Petto di Pollo
-Hähnchenbrust vom Grill mit frischen mediterranischen Kräutern 
-mit Kartoffeln und Gemüse der Saison 
+Hähnchenbrust vom Grill mit frischen mediterranischen Kräutern
+mit Kartoffeln und Gemüse der Saison
 € 24,90
 76. Filetto alla Griglia
-Rinder Filet vom Grill mit mediterranen Kräutern, dazu Kartoffeln und Gemüse der Saison 
+Rinder Filet vom Grill mit mediterranen Kräutern, dazu Kartoffeln und Gemüse der Saison
 € 43,00
 77. Filetto Chateaubriand (ab 2 Personen)
 Rinderfilet Chateaubriand mit Kartoffeln und Gemüse der Saison
-inkl. 2 Sauce auf Wünsch 
+inkl. 2 Sauce auf Wünsch
 € 49,90 (pro Person)
 K
 K
@@ -296,15 +296,15 @@ Tomaten und Mozzarella-Fiordilatte
 Tomaten, Mozzarella, Salami, Schinken, Champignons und Zwiebeln
 € 17,90
 102. Pinsa Speciale
- Mozzarella-Fiordilatte, Burrata, Mortadella aus Bologna, mit 
+ Mozzarella-Fiordilatte, Burrata, Mortadella aus Bologna, mit
 hausgemachtem Pesto und Pistazien
 € 19,90
 103. Pinsa Vegetariana
 Tomaten, gegrilltes Gemüse und Büffel–Mozzarella
 € 19,90
 104. Pinsa al Prosciutto di Parma
-Tomaten, Mozzarella-Fiordilatte, Parmaschinken, Rucola, 
-Kirschtomaten und Parmesanraspeln 
+Tomaten, Mozzarella-Fiordilatte, Parmaschinken, Rucola,
+Kirschtomaten und Parmesanraspeln
 € 20,90
 105. Pinsa alla Pescatore
 Tomaten, Mozzarella-Fiordilatte und Meeresfrüchte
@@ -322,13 +322,13 @@ G, F, I
 G, F
 
 - Dessert -
-110. Sorbetto al Limone 
+110. Sorbetto al Limone
 Zitronensorbet in Zitronenschale
 € 11,90
-110.1 Sorbetto all´Arancio 
+110.1 Sorbetto all´Arancio
 Orangensorbet in Orangenschale
 € 11,90
-111. Tiramisú 
+111. Tiramisú
  auf Chef-Art
 € 8,90
 112. Tartufo Eis (Pistazien)
@@ -358,50 +358,50 @@ Choco Küchlein mit flüssigem Choccoladenkern, warm serviert
 1 , 2
 1 , 2
 
-- Aperitivo  / Aperitiv -
-150	 Campari Soda oder Orange oder mit Gin...5cl  8,10 €
-151	 Martini Rosso..................................................5cl  7,10 €
-152	 Martini Bianco.................................................5cl  7,10 €
-153	 Sherry Medium (halbtrocken).......................5cl  7,10 €
-154	 Sherry Dolce (süß).........................................5cl  7,10 €
-155	 Sherry secco (trocken ................................ 5cl  7,10 € 
-156	 Aperol Soda oder Orange............................. 5cl  8,10 €
-157	 Prosecco DOC..................................................0,1l  7,60 €
-157.1	 Prosecco Flasche.........................................0,75l 41,50 €
-158	 Aperol Spritz....................................................5cl 10,10 €
-158.1	 Aperol Spritz Alkoholfrei................................5cl 10,10 €
-159	 Crodino..............................................................5cl  5,60 €
-160	 Sanbitter...........................................................5cl  5,60 €
-161	 Hugo..................................................................5cl 10,10 €
-161.1	 Hugo Alkoholfrei..............................................5cl 10,10 €
-162	 Lillet..................................................................5cl 10,10 €
+- Aperitivo / Aperitiv -
+150	 Campari Soda oder Orange oder mit Gin 5cl 8,10 €
+151	 Martini Rosso 5cl 7,10 €
+152	 Martini Bianco 5cl 7,10 €
+153	 Sherry Medium (halbtrocken) 5cl 7,10 €
+154	 Sherry Dolce (süß) 5cl 7,10 €
+155	 Sherry secco (trocken 5cl 7,10 €
+156	 Aperol Soda oder Orange 5cl 8,10 €
+157	 Prosecco DOC 0,1l 7,60 €
+157.1	 Prosecco Flasche 0,75l 41,50 €
+158	 Aperol Spritz 5cl 10,10 €
+158.1	 Aperol Spritz Alkoholfrei 5cl 10,10 €
+159	 Crodino 5cl 5,60 €
+160	 Sanbitter 5cl 5,60 €
+161	 Hugo 5cl 10,10 €
+161.1	 Hugo Alkoholfrei 5cl 10,10 €
+162	 Lillet 5cl 10,10 €
 - Alkoholfreie Getränke -
-130	 Coca Cola............................................................0,2l 3,60 € 0,33 fl 4,90 €
-131	
-Coca light............................................................0,2l 3,60 € 0,33 fl 4,90 €
-132	 Cola zero.............................................................0,2l 3,60 € 0,33 fl 4,90 €
-133	 Fanta....................................................................0,2l 3,60 € 0,33 fl 4,90 €
-134	 Mezzomix.............................................................0,2l 3,60 € 0,33 fl 4,90 €
-135	 Sprite...................................................................0,2l 3,60 € 0,33 fl 4,90 €
-136	 Mineralwasser mit Kohlensäure Pellegrino...........................0,25l  3,60 €
-137	 Mineralwasser still Pellegrino.................................................0,25l  3,60 €
-138	 Mineralwasser mit Kohlensäure Pellegrino..............................0,7l  8,60 €
-139	 Mineralwasser still Pellegrino....................................................0,7l  8,60 €
-147	 Tafelwasser Purezza...............................................................0,350l  2,90 €
-147	 Tafelwasser Purezza....................................................................0,7l  5,90 €
-140	 Apfelsaftschorle Rapps.....................................0,2l  3,90 €  0,4l  5,40 €
-141	 Johannesbeerschorle Rapps..............................0,2l  3,90 €  0,4l  5,40 €
-141.1	 Johannesbeersaft Rapps...................................0,2l  3,90 €  0,4l  5,40 €
-142	 Apfelsaft Rapps.................................................0,2l  3,90 €  0,4l  5,40 €
-143	 Orangensaft Rapps............................................0,2l  3,90 €  0,4l  5,40 €
-144	 Bitter Lemon Schweppes.................................0,2l  3,90 €  0,4l  5,40 € 
-145	 Tonic Water Schweppes...................................0,2l  3,90 €  0,4l  5,40 €
-146	 Ginger Ale Schweppes......................................0,2l  3,90 €  0,4l  5,40 €
-147	 Orangina......................................................................................0,25l  3,60 €
-945	 Maracujasaft Rapps..........................................0,2l  3,90 €  0,4l  5,40 € 
-946	 Maracujaschorle Rapps.....................................0,2l  3,90 €  0,4l  5,40 €
-944	 Ananassaft Rapps..............................................0,2l  3,90 €  0,4l  5,40 €
-944.1	Ananasschorle Rapps.........................................0,2l  3,90 €  0,4l  5,40 €
+130	 Coca Cola 0,2l 3,60 € 0,33 fl 4,90 €
+131
+Coca light 0,2l 3,60 € 0,33 fl 4,90 €
+132	 Cola zero 0,2l 3,60 € 0,33 fl 4,90 €
+133	 Fanta 0,2l 3,60 € 0,33 fl 4,90 €
+134	 Mezzomix 0,2l 3,60 € 0,33 fl 4,90 €
+135	 Sprite 0,2l 3,60 € 0,33 fl 4,90 €
+136	 Mineralwasser mit Kohlensäure Pellegrino 0,25l 3,60 €
+137	 Mineralwasser still Pellegrino 0,25l 3,60 €
+138	 Mineralwasser mit Kohlensäure Pellegrino 0,7l 8,60 €
+139	 Mineralwasser still Pellegrino 0,7l 8,60 €
+147	 Tafelwasser Purezza 0,350l 2,90 €
+147	 Tafelwasser Purezza 0,7l 5,90 €
+140	 Apfelsaftschorle Rapps 0,2l 3,90 € 0,4l 5,40 €
+141	 Johannesbeerschorle Rapps 0,2l 3,90 € 0,4l 5,40 €
+141.1	 Johannesbeersaft Rapps 0,2l 3,90 € 0,4l 5,40 €
+142	 Apfelsaft Rapps 0,2l 3,90 € 0,4l 5,40 €
+143	 Orangensaft Rapps 0,2l 3,90 € 0,4l 5,40 €
+144	 Bitter Lemon Schweppes 0,2l 3,90 € 0,4l 5,40 €
+145	 Tonic Water Schweppes 0,2l 3,90 € 0,4l 5,40 €
+146	 Ginger Ale Schweppes 0,2l 3,90 € 0,4l 5,40 €
+147	 Orangina 0,25l 3,60 €
+945	 Maracujasaft Rapps 0,2l 3,90 € 0,4l 5,40 €
+946	 Maracujaschorle Rapps 0,2l 3,90 € 0,4l 5,40 €
+944	 Ananassaft Rapps 0,2l 3,90 € 0,4l 5,40 €
+944.1	Ananasschorle Rapps 0,2l 3,90 € 0,4l 5,40 €
 10
 5
 5
@@ -409,7 +409,7 @@ Coca light............................................................0,2l 3,60
 5
 5
 3, 5
-3, 1,  5
+3, 1, 5
 3, 5
 3, 5
 1, 5, 9
@@ -431,36 +431,36 @@ Coca light............................................................0,2l 3,60
 1, 9
 
 - Offene Weine -
-330	 Pinot Griggio ( Weiß )..................................0,25l 7,30 €
-331	 Chardonny ( Weiß ).......................................0,25l 7,30 €
-332	 Lugana ( Weiß )............................................0,25l 8,80 €
-336	 Frizzantino ( Weiß Lieblich ).......................0,25l 7,30 €
-338	 Weißweinschorle............................................0,25l 5,80 €
-340	 Weißwein.........................................................0,10l 5,30 €
-341	 Roséwein.........................................................0,25l 7,30 €
-333	 Nero D´Avola ( Rot ).....................................0,25l 7,30 €
-334	 Primitivo ( Rot )...........................................0,25l 8,80 €
-335	 Merlot ( Rot )...............................................0,25l 7,30 €
-337	 Lambrusco ( Rot Lieblich ).........................0,25l 6,80 €
-342	 Montepulciano ( Rot )..................................0,25l 8,30 €
-339	 Rotwein ( Rot ).............................................0,10l 5,30 €
+330	 Pinot Griggio ( Weiß ) 0,25l 7,30 €
+331	 Chardonny ( Weiß ) 0,25l 7,30 €
+332	 Lugana ( Weiß ) 0,25l 8,80 €
+336	 Frizzantino ( Weiß Lieblich ) 0,25l 7,30 €
+338	 Weißweinschorle 0,25l 5,80 €
+340	 Weißwein 0,10l 5,30 €
+341	 Roséwein 0,25l 7,30 €
+333	 Nero D´Avola ( Rot ) 0,25l 7,30 €
+334	 Primitivo ( Rot ) 0,25l 8,80 €
+335	 Merlot ( Rot ) 0,25l 7,30 €
+337	 Lambrusco ( Rot Lieblich ) 0,25l 6,80 €
+342	 Montepulciano ( Rot ) 0,25l 8,30 €
+339	 Rotwein ( Rot ) 0,10l 5,30 €
 - Apfelwein -
-200	 Pils vom Fass (Bittburger)...................................... 0,2l 3,70 €
-201	 Pils vom Fass (Bittburger)..................................... 0,4l 5,70 €
-202.1	Radler...........................................................................0,2l 3,70 €
-202	 Radler..........................................................................0,4l 5,70 €
-203	 Bier mit Cola..............................................................0,4l 5,70 €
-204	 Hefeweizen vom Fass (Benedektiner L).................0,5l 5,80 €
-205	 Weizenbier Dunkel (Benedektiner)............0,5l Flasche 5,80 €
-206	 Weizenbier Kristall (Paulaner)...................0,5l Flasche 5,80 €
-207	 Alkoholfreies Bier (Bitburger)..................0,33l Flasche 5,10 €
+200	 Pils vom Fass (Bittburger) 0,2l 3,70 €
+201	 Pils vom Fass (Bittburger) 0,4l 5,70 €
+202.1	Radler 0,2l 3,70 €
+202	 Radler 0,4l 5,70 €
+203	 Bier mit Cola 0,4l 5,70 €
+204	 Hefeweizen vom Fass (Benedektiner L) 0,5l 5,80 €
+205	 Weizenbier Dunkel (Benedektiner) 0,5l Flasche 5,80 €
+206	 Weizenbier Kristall (Paulaner) 0,5l Flasche 5,80 €
+207	 Alkoholfreies Bier (Bitburger) 0,33l Flasche 5,10 €
 208	 Alkoholfreies Weizenbier
-	
-(Benedektiner)........................................... 0,5l Flasche 5,80 €
+
+(Benedektiner) 0,5l Flasche 5,80 €
 - Biere -
-1100.1	Apfelwein Pur...........................0,25l 3,80 € 0,5l 5,80 €
-1102.1	Apfelwein sauergespritzt........0,25l 3,80 € 0,5l 5,80 €
-1104.1	Apfelwein süßgespritz.............0,25l 3,80 € 0,5l 5,80 €
+1100.1	Apfelwein Pur 0,25l 3,80 € 0,5l 5,80 €
+1102.1	Apfelwein sauergespritzt 0,25l 3,80 € 0,5l 5,80 €
+1104.1	Apfelwein süßgespritz 0,25l 3,80 € 0,5l 5,80 €
 5
 5
 5
@@ -486,38 +486,38 @@ A, 1
 A, 3
 A, 1
 A, 1
-A,  1
+A, 1
 
 - Spirituosen -
-290	 Capuccino...................................................................3,60 €
-291	 Kaffee Americano......................................................3,10 €
-292	 Espresso.....................................................................2,80 €
-293	 Doppelter Espresso...................................................4,10 €
-293.1 Doppelter Espresso Macchiato...............................4,40 €
-294	 Espresso Macciato....................................................3,10 €
-295	 Latte Macchiato........................................................4,60 €
-296	 Milchkaffee................................................................4,60 €
-297	 Tee..............................................................................3,30 €
-298.1	Kakao..........................................................................5,10 €
+290	 Capuccino 3,60 €
+291	 Kaffee Americano 3,10 €
+292	 Espresso 2,80 €
+293	 Doppelter Espresso 4,10 €
+293.1 Doppelter Espresso Macchiato 4,40 €
+294	 Espresso Macciato 3,10 €
+295	 Latte Macchiato 4,60 €
+296	 Milchkaffee 4,60 €
+297	 Tee 3,30 €
+298.1	Kakao 5,10 €
 - Cafe´-
-400	 Sierra Tequilla (gold).....................................2 cl  6,10 €
-401	 Sierra Tequilla (silber)...................................2 cl  6,10 €
-402	 Sambuca..........................................................2 cl  6,10 €
-403	 Amaretto..........................................................2 cl  6,10 €
-404	 Vodka...............................................................2 cl  6,10 €
-405	 Grappa della Casa..........................................2 cl  6,10 €
-406	 Grappa Prosecco.............................................2 cl  9,10 €
-407	 Averna..............................................................2 cl  6,10 €
-408	 Ramazotti........................................................2 cl  6,10 €
-409	 Jägermeister...................................................2 cl  6,10 €
-410	 Fernet Branca................................................2 cl  6,10 €
-411	 Carlos Primero...............................................2 cl  6,10 €
-412	 103...................................................................2 cl  6,10 €
-413	 Cardinal Mendoza..........................................2 cl 10,10 €
-415	 Cynar...............................................................2 cl  6,10 €
-416	 108...................................................................2 cl  6,10 €
-417	 43.....................................................................2 cl  6,10 €
-418	 Vecchia Romagna...........................................2 cl  8,10 €
+400	 Sierra Tequilla (gold) 2 cl 6,10 €
+401	 Sierra Tequilla (silber) 2 cl 6,10 €
+402	 Sambuca 2 cl 6,10 €
+403	 Amaretto 2 cl 6,10 €
+404	 Vodka 2 cl 6,10 €
+405	 Grappa della Casa 2 cl 6,10 €
+406	 Grappa Prosecco 2 cl 9,10 €
+407	 Averna 2 cl 6,10 €
+408	 Ramazotti 2 cl 6,10 €
+409	 Jägermeister 2 cl 6,10 €
+410	 Fernet Branca 2 cl 6,10 €
+411	 Carlos Primero 2 cl 6,10 €
+412	 103 2 cl 6,10 €
+413	 Cardinal Mendoza 2 cl 10,10 €
+415	 Cynar 2 cl 6,10 €
+416	 108 2 cl 6,10 €
+417	 43 2 cl 6,10 €
+418	 Vecchia Romagna 2 cl 8,10 €
 G
 7, G
 7, G
@@ -547,38 +547,38 @@ G
 3
 
 - Longdrink -
-4010	 Jacky Cola...............................................................10,10 €
-4011	 Vodka Lemon...........................................................10,10 €
-4012	 Bacardi Cola............................................................11,10 €
-4013	 Gin Tonic..................................................................10,10 €
-4014	Gin Spezial...............................................................14,10 €
+4010	 Jacky Cola 10,10 €
+4011	 Vodka Lemon 10,10 €
+4012	 Bacardi Cola 11,10 €
+4013	 Gin Tonic 10,10 €
+4014	Gin Spezial 14,10 €
 Weinflasche bitte bei unsere bedienung anfragen
 - Weinflasche -
 Wir weisen darauf hin, dass unsere Speisen durch Nutzung von Fremdprodukten kennzeichnungspflichtige
-Zusatzstoffe gemäß der Lebensmittelverordnung enthalten. In dieser Speisekarte sind die Gerichte durch 
-eine hochstehende Zahl gekennzeichnet. Nähere Informationen über Zusatzstoffe entnehmen Sie bitte der 
+Zusatzstoffe gemäß der Lebensmittelverordnung enthalten. In dieser Speisekarte sind die Gerichte durch
+eine hochstehende Zahl gekennzeichnet. Nähere Informationen über Zusatzstoffe entnehmen Sie bitte der
 stehenden Auflistung.Allergene können erfragt werden.
 4, 1
 4, 1
 1, 9
 4,1
 1, 9
-              Deklarationspflichtige Allergene
+ Deklarationspflichtige Allergene
 a. Glutenhaltiges Getreide
-b.  Krebstiere und daraus gewonnene Erzeugnisse
-c.  Eier und daraus gewonnene Erzeugnisse
-d   Fische und daraus gewonnene Erzeugnisse
-e.  Erdnüsse und daraus gewonnene Erzeugnisse
-f.   Soja(bohnen) und daraus gewonnene Erzeugnisse
-g.  Milch und daraus gewonnene Erzeugnisse
-h.  Schalenfrüchte
-i.   Sellerie und daraus gewonnene Erzeugnisse
-j.   Senf und daraus gewonnene Erzeugnisse
-k.  Sesamsamen und daraus gewonnene Erzeugnisse
-l.   Schwefeldioxid und Sulphite
+b. Krebstiere und daraus gewonnene Erzeugnisse
+c. Eier und daraus gewonnene Erzeugnisse
+d Fische und daraus gewonnene Erzeugnisse
+e. Erdnüsse und daraus gewonnene Erzeugnisse
+f. Soja(bohnen) und daraus gewonnene Erzeugnisse
+g. Milch und daraus gewonnene Erzeugnisse
+h. Schalenfrüchte
+i. Sellerie und daraus gewonnene Erzeugnisse
+j. Senf und daraus gewonnene Erzeugnisse
+k. Sesamsamen und daraus gewonnene Erzeugnisse
+l. Schwefeldioxid und Sulphite
 m. Lupinen und daraus gewonnene Erzeugnisse
 n. Weichtiere und daraus gewonnene Erzeugnisse
-             Deklarationspflichtige Zusatzstoffe
+ Deklarationspflichtige Zusatzstoffe
 1 mit Farbstoff
 2 mit Konservierungsstoff
 3 mit Antioxidationsmittel

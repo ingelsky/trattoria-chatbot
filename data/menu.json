@@ -490,82 +490,82 @@
     "items": [
       {
         "id": "150",
-        "name": "Campari Soda oder Orange oder mit Gin...\b5cl",
+        "name": "Campari Soda oder Orange oder mit Gin",
         "price": "8,10 €"
       },
       {
         "id": "151",
-        "name": "Martini Rosso..................................................\b5cl",
+        "name": "Martini Rosso",
         "price": "7,10 €"
       },
       {
         "id": "152",
-        "name": "Martini Bianco.................................................\b5cl",
+        "name": "Martini Bianco",
         "price": "7,10 €"
       },
       {
         "id": "153",
-        "name": "Sherry Medium (halbtrocken).......................\b5cl",
+        "name": "Sherry Medium (halbtrocken)",
         "price": "7,10 €"
       },
       {
         "id": "154",
-        "name": "Sherry Dolce (süß).........................................\b5cl",
+        "name": "Sherry Dolce (süß)",
         "price": "7,10 €"
       },
       {
         "id": "155",
-        "name": "Sherry secco (trocken ................................\b 5cl",
+        "name": "Sherry secco (trocken",
         "price": "7,10 €"
       },
       {
         "id": "156",
-        "name": "Aperol Soda oder Orange.............................\b 5cl",
+        "name": "Aperol Soda oder Orange",
         "price": "8,10 €"
       },
       {
         "id": "157",
-        "name": "Prosecco DOC..................................................\b0,1l",
+        "name": "Prosecco DOC",
         "price": "7,60 €"
       },
       {
         "id": "157.1",
-        "name": "Prosecco Flasche.........................................\b0,75l",
+        "name": "Prosecco Flasche",
         "price": "41,50 €"
       },
       {
         "id": "158",
-        "name": "Aperol Spritz....................................................\b5cl",
+        "name": "Aperol Spritz",
         "price": "10,10 €"
       },
       {
         "id": "158.1",
-        "name": "Aperol Spritz Alkoholfrei................................\b5cl",
+        "name": "Aperol Spritz Alkoholfrei",
         "price": "10,10 €"
       },
       {
         "id": "159",
-        "name": "Crodino..............................................................\b5cl",
+        "name": "Crodino",
         "price": "5,60 €"
       },
       {
         "id": "160",
-        "name": "Sanbitter...........................................................\b5cl",
+        "name": "Sanbitter",
         "price": "5,60 €"
       },
       {
         "id": "161",
-        "name": "Hugo..................................................................\b5cl",
+        "name": "Hugo",
         "price": "10,10 €"
       },
       {
         "id": "161.1",
-        "name": "Hugo Alkoholfrei..............................................\b5cl",
+        "name": "Hugo Alkoholfrei",
         "price": "10,10 €"
       },
       {
         "id": "162",
-        "name": "Lillet..................................................................\b5cl",
+        "name": "Lillet",
         "price": "10,10 €"
       }
     ]
@@ -576,122 +576,122 @@
     "items": [
       {
         "id": "130",
-        "name": "Coca Cola............................................................\b0,2l  0,33 fl",
+        "name": "Coca Cola",
         "price": "3,60 €"
       },
       {
         "id": "132",
-        "name": "Cola zero.............................................................\b0,2l  0,33 fl",
+        "name": "Cola zero",
         "price": "3,60 €"
       },
       {
         "id": "133",
-        "name": "Fanta....................................................................\b0,2l  0,33 fl",
+        "name": "Fanta",
         "price": "3,60 €"
       },
       {
         "id": "134",
-        "name": "Mezzomix.............................................................\b0,2l  0,33 fl",
+        "name": "Mezzomix",
         "price": "3,60 €"
       },
       {
         "id": "135",
-        "name": "Sprite...................................................................\b0,2l  0,33 fl",
+        "name": "Sprite",
         "price": "3,60 €"
       },
       {
         "id": "136",
-        "name": "Mineralwasser mit Kohlensäure Pellegrino...........................\b0,25l",
+        "name": "Mineralwasser mit Kohlensäure Pellegrino",
         "price": "3,60 €"
       },
       {
         "id": "137",
-        "name": "Mineralwasser still Pellegrino.................................................\b0,25l",
+        "name": "Mineralwasser still Pellegrino",
         "price": "3,60 €"
       },
       {
         "id": "138",
-        "name": "Mineralwasser mit Kohlensäure Pellegrino..............................\b0,7l",
+        "name": "Mineralwasser mit Kohlensäure Pellegrino",
         "price": "8,60 €"
       },
       {
         "id": "139",
-        "name": "Mineralwasser still Pellegrino....................................................\b0,7l",
+        "name": "Mineralwasser still Pellegrino",
         "price": "8,60 €"
       },
       {
         "id": "147",
-        "name": "Tafelwasser Purezza...............................................................\b0,350l",
+        "name": "Tafelwasser Purezza",
         "price": "2,90 €"
       },
       {
         "id": "147",
-        "name": "Tafelwasser Purezza....................................................................\b0,7l",
+        "name": "Tafelwasser Purezza",
         "price": "5,90 €"
       },
       {
         "id": "140",
-        "name": "Apfelsaftschorle Rapps.....................................\b0,2l    0,4l",
+        "name": "Apfelsaftschorle Rapps",
         "price": "3,90 €"
       },
       {
         "id": "141",
-        "name": "Johannesbeerschorle Rapps..............................\b0,2l    0,4l",
+        "name": "Johannesbeerschorle Rapps",
         "price": "3,90 €"
       },
       {
         "id": "141.1",
-        "name": "Johannesbeersaft Rapps...................................\b0,2l    0,4l",
+        "name": "Johannesbeersaft Rapps",
         "price": "3,90 €"
       },
       {
         "id": "142",
-        "name": "Apfelsaft Rapps.................................................\b0,2l    0,4l",
+        "name": "Apfelsaft Rapps",
         "price": "3,90 €"
       },
       {
         "id": "143",
-        "name": "Orangensaft Rapps............................................\b0,2l    0,4l",
+        "name": "Orangensaft Rapps",
         "price": "3,90 €"
       },
       {
         "id": "144",
-        "name": "Bitter Lemon Schweppes.................................\b0,2l    0,4l",
+        "name": "Bitter Lemon Schweppes",
         "price": "3,90 €"
       },
       {
         "id": "145",
-        "name": "Tonic Water Schweppes...................................\b0,2l    0,4l",
+        "name": "Tonic Water Schweppes",
         "price": "3,90 €"
       },
       {
         "id": "146",
-        "name": "Ginger Ale Schweppes......................................\b0,2l    0,4l",
+        "name": "Ginger Ale Schweppes",
         "price": "3,90 €"
       },
       {
         "id": "147",
-        "name": "Orangina......................................................................................\b0,25l",
+        "name": "Orangina",
         "price": "3,60 €"
       },
       {
         "id": "945",
-        "name": "Maracujasaft Rapps..........................................\b0,2l    0,4l",
+        "name": "Maracujasaft Rapps",
         "price": "3,90 €"
       },
       {
         "id": "946",
-        "name": "Maracujaschorle Rapps.....................................\b0,2l    0,4l",
+        "name": "Maracujaschorle Rapps",
         "price": "3,90 €"
       },
       {
         "id": "944",
-        "name": "Ananassaft Rapps..............................................\b0,2l    0,4l",
+        "name": "Ananassaft Rapps",
         "price": "3,90 €"
       },
       {
         "id": "944.1",
-        "name": "Ananasschorle Rapps.........................................\b0,2l    0,4l",
+        "name": "Ananasschorle Rapps",
         "price": "3,90 €"
       }
     ]
@@ -702,67 +702,67 @@
     "items": [
       {
         "id": "330",
-        "name": "Pinot Griggio ( Weiß )..................................\b0,25l",
+        "name": "Pinot Griggio ( Weiß )",
         "price": "7,30 €"
       },
       {
         "id": "331",
-        "name": "Chardonny ( Weiß ).......................................\b0,25l",
+        "name": "Chardonny ( Weiß )",
         "price": "7,30 €"
       },
       {
         "id": "332",
-        "name": "Lugana ( Weiß )............................................\b0,25l",
+        "name": "Lugana ( Weiß )",
         "price": "8,80 €"
       },
       {
         "id": "336",
-        "name": "Frizzantino ( Weiß Lieblich ).......................\b0,25l",
+        "name": "Frizzantino ( Weiß Lieblich )",
         "price": "7,30 €"
       },
       {
         "id": "338",
-        "name": "Weißweinschorle............................................\b0,25l",
+        "name": "Weißweinschorle",
         "price": "5,80 €"
       },
       {
         "id": "340",
-        "name": "Weißwein.........................................................\b0,10l",
+        "name": "Weißwein",
         "price": "5,30 €"
       },
       {
         "id": "341",
-        "name": "Roséwein.........................................................\b0,25l",
+        "name": "Roséwein",
         "price": "7,30 €"
       },
       {
         "id": "333",
-        "name": "Nero D´Avola ( Rot ).....................................\b0,25l",
+        "name": "Nero D´Avola ( Rot )",
         "price": "7,30 €"
       },
       {
         "id": "334",
-        "name": "Primitivo ( Rot )...........................................\b0,25l",
+        "name": "Primitivo ( Rot )",
         "price": "8,80 €"
       },
       {
         "id": "335",
-        "name": "Merlot ( Rot )...............................................\b0,25l",
+        "name": "Merlot ( Rot )",
         "price": "7,30 €"
       },
       {
         "id": "337",
-        "name": "Lambrusco ( Rot Lieblich ).........................\b0,25l",
+        "name": "Lambrusco ( Rot Lieblich )",
         "price": "6,80 €"
       },
       {
         "id": "342",
-        "name": "Montepulciano ( Rot )..................................\b0,25l",
+        "name": "Montepulciano ( Rot )",
         "price": "8,30 €"
       },
       {
         "id": "339",
-        "name": "Rotwein ( Rot ).............................................\b0,10l",
+        "name": "Rotwein ( Rot )",
         "price": "5,30 €"
       }
     ]
@@ -773,47 +773,47 @@
     "items": [
       {
         "id": "200",
-        "name": "Pils vom Fass (Bittburger)......................................\b 0,2l",
+        "name": "Pils vom Fass (Bittburger)",
         "price": "3,70 €"
       },
       {
         "id": "201",
-        "name": "Pils vom Fass (Bittburger).....................................\b 0,4l",
+        "name": "Pils vom Fass (Bittburger)",
         "price": "5,70 €"
       },
       {
         "id": "202.1",
-        "name": "Radler...........................................................................\b0,2l",
+        "name": "Radler",
         "price": "3,70 €"
       },
       {
         "id": "202",
-        "name": "Radler..........................................................................\b0,4l",
+        "name": "Radler",
         "price": "5,70 €"
       },
       {
         "id": "203",
-        "name": "Bier mit Cola..............................................................\b0,4l",
+        "name": "Bier mit Cola",
         "price": "5,70 €"
       },
       {
         "id": "204",
-        "name": "Hefeweizen vom Fass (Benedektiner L).................\b0,5l",
+        "name": "Hefeweizen vom Fass (Benedektiner L)",
         "price": "5,80 €"
       },
       {
         "id": "205",
-        "name": "Weizenbier Dunkel (Benedektiner)............\b0,5l Flasche",
+        "name": "Weizenbier Dunkel (Benedektiner)",
         "price": "5,80 €"
       },
       {
         "id": "206",
-        "name": "Weizenbier Kristall (Paulaner)...................\b0,5l Flasche",
+        "name": "Weizenbier Kristall (Paulaner)",
         "price": "5,80 €"
       },
       {
         "id": "207",
-        "name": "Alkoholfreies Bier (Bitburger)..................\b0,33l Flasche",
+        "name": "Alkoholfreies Bier (Bitburger)",
         "price": "5,10 €"
       }
     ]
@@ -824,17 +824,17 @@
     "items": [
       {
         "id": "1100.1",
-        "name": "Apfelwein Pur...........................\b0,25l  0,5l",
+        "name": "Apfelwein Pur",
         "price": "3,80 €"
       },
       {
         "id": "1102.1",
-        "name": "Apfelwein sauergespritzt........\b0,25l  0,5l",
+        "name": "Apfelwein sauergespritzt",
         "price": "3,80 €"
       },
       {
         "id": "1104.1",
-        "name": "Apfelwein süßgespritz.............\b0,25l  0,5l",
+        "name": "Apfelwein süßgespritz",
         "price": "3,80 €"
       }
     ]
@@ -845,142 +845,137 @@
     "items": [
       {
         "id": "290",
-        "name": "Capuccino...................................................................\b",
+        "name": "Capuccino",
         "price": "3,60 €"
       },
       {
         "id": "291",
-        "name": "Kaffee Americano......................................................\b",
+        "name": "Kaffee Americano",
         "price": "3,10 €"
       },
       {
         "id": "292",
-        "name": "Espresso.....................................................................\b",
+        "name": "Espresso",
         "price": "2,80 €"
       },
       {
         "id": "293",
-        "name": "Doppelter Espresso...................................................\b",
+        "name": "Doppelter Espresso",
         "price": "4,10 €"
       },
       {
         "id": "293.1",
-        "name": "Doppelter Espresso Macchiato...............................\b",
+        "name": "Doppelter Espresso Macchiato",
         "price": "4,40 €"
       },
       {
         "id": "294",
-        "name": "Espresso Macciato....................................................\b",
+        "name": "Espresso Macciato",
         "price": "3,10 €"
       },
       {
         "id": "295",
-        "name": "Latte Macchiato........................................................\b",
+        "name": "Latte Macchiato",
         "price": "4,60 €"
       },
       {
         "id": "296",
-        "name": "Milchkaffee................................................................\b",
+        "name": "Milchkaffee",
         "price": "4,60 €"
       },
       {
         "id": "297",
-        "name": "Tee..............................................................................\b",
+        "name": "Tee",
         "price": "3,30 €"
       },
       {
         "id": "298.1",
-        "name": "Kakao..........................................................................\b",
+        "name": "Kakao",
         "price": "5,10 €"
       },
       {
         "id": "400",
-        "name": "Sierra Tequilla (gold).....................................\b2 cl",
+        "name": "Sierra Tequilla (gold)",
         "price": "6,10 €"
       },
       {
         "id": "401",
-        "name": "Sierra Tequilla (silber)...................................\b2 cl",
+        "name": "Sierra Tequilla (silber)",
         "price": "6,10 €"
       },
       {
         "id": "402",
-        "name": "Sambuca..........................................................\b2 cl",
+        "name": "Sambuca",
         "price": "6,10 €"
       },
       {
         "id": "403",
-        "name": "Amaretto..........................................................\b2 cl",
+        "name": "Amaretto",
         "price": "6,10 €"
       },
       {
         "id": "404",
-        "name": "Vodka...............................................................\b2 cl",
+        "name": "Vodka",
         "price": "6,10 €"
       },
       {
         "id": "405",
-        "name": "Grappa della Casa..........................................\b2 cl",
+        "name": "Grappa della Casa",
         "price": "6,10 €"
       },
       {
         "id": "406",
-        "name": "Grappa Prosecco.............................................\b2 cl",
+        "name": "Grappa Prosecco",
         "price": "9,10 €"
       },
       {
         "id": "407",
-        "name": "Averna..............................................................\b2 cl",
+        "name": "Averna",
         "price": "6,10 €"
       },
       {
         "id": "408",
-        "name": "Ramazotti........................................................\b2 cl",
+        "name": "Ramazotti",
         "price": "6,10 €"
       },
       {
         "id": "409",
-        "name": "Jägermeister...................................................\b2 cl",
+        "name": "Jägermeister",
         "price": "6,10 €"
       },
       {
         "id": "410",
-        "name": "Fernet Branca................................................\b2 cl",
+        "name": "Fernet Branca",
         "price": "6,10 €"
       },
       {
         "id": "411",
-        "name": "Carlos Primero...............................................\b2 cl",
+        "name": "Carlos Primero",
         "price": "6,10 €"
       },
       {
         "id": "412",
-        "name": "103...................................................................\b2 cl",
+        "name": "103",
         "price": "6,10 €"
       },
       {
         "id": "413",
-        "name": "Cardinal Mendoza..........................................\b2 cl",
+        "name": "Cardinal Mendoza",
         "price": "10,10 €"
       },
       {
         "id": "415",
-        "name": "Cynar...............................................................\b2 cl",
+        "name": "Cynar",
         "price": "6,10 €"
       },
       {
         "id": "416",
-        "name": "108...................................................................\b2 cl",
-        "price": "6,10 €"
-      },
-      {
-        "id": "417",
-        "name": "43.....................................................................\b2 cl",
+        "name": "108",
         "price": "6,10 €"
       },
       {
         "id": "418",
-        "name": "Vecchia Romagna...........................................\b2 cl",
+        "name": "Vecchia Romagna",
         "price": "8,10 €"
       }
     ]
@@ -991,27 +986,27 @@
     "items": [
       {
         "id": "4010",
-        "name": "Jacky Cola...............................................................\b",
+        "name": "Jacky Cola",
         "price": "10,10 €"
       },
       {
         "id": "4011",
-        "name": "Vodka Lemon...........................................................\b",
+        "name": "Vodka Lemon",
         "price": "10,10 €"
       },
       {
         "id": "4012",
-        "name": "Bacardi Cola............................................................\b",
+        "name": "Bacardi Cola",
         "price": "11,10 €"
       },
       {
         "id": "4013",
-        "name": "Gin Tonic..................................................................\b",
+        "name": "Gin Tonic",
         "price": "10,10 €"
       },
       {
         "id": "4014",
-        "name": "Gin Spezial...............................................................\b",
+        "name": "Gin Spezia",
         "price": "14,10 €"
       }
     ]

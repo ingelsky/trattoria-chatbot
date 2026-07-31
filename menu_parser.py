@@ -21,6 +21,18 @@ def _slug(name: str) -> str:
     return re.sub(r"[\s_]+", "-", cleaned.strip())[:40]
 
 
+def _clean_item_name(name: str) -> str:
+    name = name.replace("\b", " ")
+    name = re.sub(r"\.{2,}", "", name)
+    name = re.sub(
+        r"\s*(?:\d+[,.]?\d*\s*)?(?:l|cl|fl)(?:\s+\d+[,.]?\d*\s*(?:l|cl|fl))?\s*(?:Flasche)?\s*$",
+        "",
+        name,
+        flags=re.I,
+    )
+    return re.sub(r"\s+", " ", name).strip().rstrip(".")
+
+
 def _extract_price(text: str) -> str | None:
     match = PRICE_PATTERN.search(text.replace("\t", " "))
     return match.group(0).strip() if match else None
@@ -66,7 +78,7 @@ def parse_speisekarte(path: Path) -> list[dict]:
 
         drink_match = DRINK_LINE.match(normalized)
         if drink_match and price_on_line and not DISH_LINE.match(raw):
-            name = PRICE_PATTERN.sub("", drink_match.group(2)).strip().rstrip(".")
+            name = _clean_item_name(PRICE_PATTERN.sub("", drink_match.group(2)))
             if len(name) > 2:
                 current["items"].append(
                     {
