@@ -30,14 +30,22 @@
     center / cover no-repeat;
 }
 
-/* Chat bubble — La Trattoria colors (#094144, #c8a15f) */
-#lt-chat-bubble {
-  background: linear-gradient(135deg, #094144, #256f73) !important;
-  box-shadow: 0 6px 24px rgba(9, 65, 68, 0.45) !important;
+/* Chat launcher — La Trattoria colors (#094144, #c8a15f) */
+#lt-chat-launcher {
+  border-color: #c8a15f !important;
 }
 
-#lt-chat-bubble:hover {
-  box-shadow: 0 8px 28px rgba(9, 65, 68, 0.55) !important;
+#lt-chat-teaser-title {
+  color: #094144 !important;
+}
+
+#lt-chat-icon {
+  background: linear-gradient(135deg, #094144, #256f73) !important;
+  box-shadow: 0 4px 14px rgba(9, 65, 68, 0.45) !important;
+}
+
+#lt-chat-launcher:hover #lt-chat-icon {
+  box-shadow: 0 6px 18px rgba(9, 65, 68, 0.55) !important;
 }
 
 #lt-chat-panel {

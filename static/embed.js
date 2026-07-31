@@ -11,37 +11,17 @@
     "  right: 20px;",
     "  bottom: 20px;",
     "  z-index: 2147483000;",
+    "  display: flex;",
+    "  flex-direction: column;",
+    "  align-items: flex-end;",
+    "  gap: 12px;",
     "  font-family: 'Segoe UI', system-ui, sans-serif;",
     "}",
-    "#lt-chat-bubble {",
-    "  width: 60px;",
-    "  height: 60px;",
-    "  border: none;",
-    "  border-radius: 50%;",
-    "  background: linear-gradient(135deg, #094144, #256f73);",
-    "  color: #fff;",
-    "  cursor: pointer;",
-    "  box-shadow: 0 6px 24px rgba(60, 16, 16, 0.35);",
-    "  display: grid;",
-    "  place-items: center;",
-    "  transition: transform 0.2s ease, box-shadow 0.2s ease;",
-    "}",
-    "#lt-chat-bubble:hover {",
-    "  transform: scale(1.05);",
-    "  box-shadow: 0 8px 28px rgba(60, 16, 16, 0.45);",
-    "}",
-    "#lt-chat-bubble svg {",
-    "  width: 28px;",
-    "  height: 28px;",
-    "}",
     "#lt-chat-panel {",
-    "  position: absolute;",
-    "  right: 0;",
-    "  bottom: 72px;",
     "  width: 380px;",
     "  height: 560px;",
     "  max-width: calc(100vw - 32px);",
-    "  max-height: calc(100vh - 100px);",
+    "  max-height: calc(100vh - 120px);",
     "  border: none;",
     "  border-radius: 16px;",
     "  overflow: hidden;",
@@ -61,16 +41,109 @@
     "  height: 100%;",
     "  border: none;",
     "}",
+    "#lt-chat-launcher {",
+    "  display: flex;",
+    "  align-items: center;",
+    "  gap: 14px;",
+    "  padding: 12px 16px 12px 18px;",
+    "  border: 2px solid #c8a15f;",
+    "  border-radius: 999px;",
+    "  background: #fff;",
+    "  color: #094144;",
+    "  cursor: pointer;",
+    "  box-shadow: 0 8px 32px rgba(9, 65, 68, 0.28);",
+    "  max-width: min(340px, calc(100vw - 24px));",
+    "  text-align: left;",
+    "  transition: transform 0.2s ease, box-shadow 0.2s ease, padding 0.2s ease;",
+    "  animation: lt-chat-attention 2.8s ease-in-out 2;",
+    "}",
+    "#lt-chat-launcher:hover {",
+    "  transform: translateY(-2px);",
+    "  box-shadow: 0 12px 36px rgba(9, 65, 68, 0.34);",
+    "}",
+    "#lt-chat-launcher:focus-visible {",
+    "  outline: 3px solid rgba(200, 161, 95, 0.55);",
+    "  outline-offset: 2px;",
+    "}",
+    "#lt-chat-teaser {",
+    "  display: flex;",
+    "  flex-direction: column;",
+    "  gap: 2px;",
+    "  min-width: 0;",
+    "}",
+    "#lt-chat-teaser-title {",
+    "  font-size: 0.92rem;",
+    "  font-weight: 700;",
+    "  line-height: 1.25;",
+    "  color: #094144;",
+    "}",
+    "#lt-chat-teaser-text {",
+    "  font-size: 0.78rem;",
+    "  line-height: 1.35;",
+    "  color: #5c3d2e;",
+    "}",
+    "#lt-chat-icon {",
+    "  width: 52px;",
+    "  height: 52px;",
+    "  flex-shrink: 0;",
+    "  border-radius: 50%;",
+    "  background: linear-gradient(135deg, #094144, #256f73);",
+    "  color: #fff;",
+    "  display: grid;",
+    "  place-items: center;",
+    "  box-shadow: 0 4px 14px rgba(9, 65, 68, 0.35);",
+    "}",
+    "#lt-chat-icon svg {",
+    "  width: 26px;",
+    "  height: 26px;",
+    "}",
+    "#lt-chat-root.is-open #lt-chat-teaser {",
+    "  display: none;",
+    "}",
+    "#lt-chat-root.is-open #lt-chat-launcher {",
+    "  padding: 0;",
+    "  border-radius: 50%;",
+    "  border-color: transparent;",
+    "  background: transparent;",
+    "  box-shadow: none;",
+    "  animation: none;",
+    "}",
+    "#lt-chat-root.is-open #lt-chat-icon {",
+    "  width: 56px;",
+    "  height: 56px;",
+    "}",
+    "@keyframes lt-chat-attention {",
+    "  0%, 100% { box-shadow: 0 8px 32px rgba(9, 65, 68, 0.28); }",
+    "  50% { box-shadow: 0 8px 32px rgba(9, 65, 68, 0.28), 0 0 0 6px rgba(200, 161, 95, 0.28); }",
+    "}",
     "@media (max-width: 480px) {",
     "  #lt-chat-root { right: 12px; bottom: 12px; }",
     "  #lt-chat-panel {",
     "    width: calc(100vw - 24px);",
-    "    height: calc(100vh - 88px);",
-    "    bottom: 68px;",
+    "    height: calc(100vh - 96px);",
+    "  }",
+    "  #lt-chat-teaser-text {",
+    "    display: none;",
+    "  }",
+    "  #lt-chat-teaser-title {",
+    "    font-size: 0.84rem;",
+    "  }",
+    "  #lt-chat-launcher {",
+    "    padding: 10px 12px 10px 14px;",
+    "    gap: 10px;",
+    "  }",
+    "  #lt-chat-icon {",
+    "    width: 46px;",
+    "    height: 46px;",
     "  }",
     "}",
   ].join("\n");
   document.head.appendChild(styles);
+
+  var chatIcon =
+    '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">' +
+    '<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>' +
+    "</svg>";
 
   var root = document.createElement("div");
   root.id = "lt-chat-root";
@@ -84,17 +157,21 @@
   iframe.setAttribute("loading", "lazy");
   panel.appendChild(iframe);
 
-  var bubble = document.createElement("button");
-  bubble.id = "lt-chat-bubble";
-  bubble.type = "button";
-  bubble.setAttribute("aria-label", "Chat öffnen");
-  bubble.innerHTML =
-    '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">' +
-    '<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>' +
-    "</svg>";
+  var launcher = document.createElement("button");
+  launcher.id = "lt-chat-launcher";
+  launcher.type = "button";
+  launcher.setAttribute("aria-label", "KI-Assistent öffnen");
+  launcher.innerHTML =
+    '<span id="lt-chat-teaser" class="lt-chat-teaser">' +
+    '<span class="lt-chat-teaser-title">Haben Sie Fragen?</span>' +
+    '<span class="lt-chat-teaser-text">Stellen Sie sie gern unserem KI-Assistenten.</span>' +
+    "</span>" +
+    '<span id="lt-chat-icon" class="lt-chat-icon">' +
+    chatIcon +
+    "</span>";
 
   root.appendChild(panel);
-  root.appendChild(bubble);
+  root.appendChild(launcher);
   document.body.appendChild(root);
 
   var isOpen = false;
@@ -102,10 +179,14 @@
   function setOpen(open) {
     isOpen = open;
     panel.classList.toggle("is-open", open);
-    bubble.setAttribute("aria-label", open ? "Chat schließen" : "Chat öffnen");
+    root.classList.toggle("is-open", open);
+    launcher.setAttribute(
+      "aria-label",
+      open ? "KI-Assistent schließen" : "KI-Assistent öffnen"
+    );
   }
 
-  bubble.addEventListener("click", function () {
+  launcher.addEventListener("click", function () {
     setOpen(!isOpen);
   });
 

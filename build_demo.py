@@ -44,7 +44,7 @@ html = html.replace("</head>", head_extra + "</head>", 1)
 # Inject chat widget before </body>
 html = html.replace(
     "</body>",
-    '  <script src="/embed.js" defer></script>\n</body>',
+    '  <script src="/embed.js?v=6" defer></script>\n</body>',
     1,
 )
 
