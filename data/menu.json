@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "insalate",
+    "name": "Insalate",
+    "items": [
+      {
+        "id": "3",
+        "name": "Insalata Italia",
+        "price": "€ 16,90",
+        "description": "gemischter Salat mit Tomaten, Gurken, Karotten, Paprika, Käse, Vorderschinken, Eier, Thunfisch, roten Zwiebeln und Mais"
+      },
+      {
+        "id": "4",
+        "name": "Insalata di Pollo",
+        "price": "€ 18,90",
+        "description": "gemischter Salat mit Tomaten, Gurken, Karotten, Paprika, Champignons, gebratenem Hähnchenbrustfilet, roten Zwiebeln und Mais"
+      },
+      {
+        "id": "5",
+        "name": "Insalata Royal",
+        "price": "€ 19,90",
+        "description": "gemischter Salat mit Tomaten, Gurken, Paprika, gebratenem Lachs, roten Zwiebeln und Mais"
+      },
+      {
+        "id": "6",
+        "name": "Insalata di Gamberi",
+        "price": "€ 20,50",
+        "description": "gemischter Salat mit Tomaten, Gurken, Zwiebeln, Paprika, gebratenen Gambas, roten Zwiebeln und Mais"
+      },
+      {
+        "id": "7",
+        "name": "Insalata Caprese",
+        "price": "€ 17,90",
+        "description": "Büffel-Mozzarella mit Tomaten und hausgemachtem Basilikumpesto"
+      },
+      {
+        "id": "9",
+        "name": "Insalata „ Trattoria „",
+        "price": "€ 20,90",
+        "description": "gem. Salat mit Pfefferlingen, Speck und Rinderfiletspitzen"
+      },
+      {
+        "id": "10",
+        "name": "Insalata Mista",
+        "price": "€ 8,90",
+        "description": "gemischter Salat mit Tomaten, Gurken, Karotten, Paprika, roten Zwiebeln und Mais"
+      },
+      {
+        "id": "11",
+        "name": "Insalata Chipirones",
+        "price": "€ 17,90",
+        "description": "gemischter Salat mit baby Kalamari und Avocados"
+      }
+    ]
+  },
+  {
+    "id": "tapas",
+    "name": "Tapas",
+    "items": [
+      {
+        "id": "20",
+        "name": "Chipirones All` aglio",
+        "price": "€ 16,90",
+        "description": "baby Kalamari in Knoblauchsauce"
+      },
+      {
+        "id": "21",
+        "name": "Antipasto Misto per 2 Persone",
+        "price": "€ 48,00",
+        "description": "Vorspeisen spezial des Hauses für 2 Personen"
+      },
+      {
+        "id": "22",
+        "name": "Melanzane alla Siciliana",
+        "price": "€ 13,90",
+        "description": "Auberginenauflauf"
+      },
+      {
+        "id": "23",
+        "name": "Pecorino con Insalata",
+        "price": "€ 14,90",
+        "description": "Wildkräutersalat und gebackener Schafskäse"
+      },
+      {
+        "id": "24",
+        "name": "Tartara Vegetariana",
+        "price": "€ 16,90",
+        "description": "mit Buffalamozzarella, Avocado und Mango"
+      },
+      {
+        "id": "25",
+        "name": "Sardine Fritte su Insalata",
+        "price": "€ 14,90",
+        "description": "frittierte Sardellen auf Salat"
+      },
+      {
+        "id": "26",
+        "name": "Calamari Fritti",
+        "price": "€ 15,90",
+        "description": "frittierte Kalamari auf Salat"
+      },
+      {
+        "id": "27",
+        "name": "Vitello Tonnato",
+        "price": "€ 18,90",
+        "description": "Dünn aufgeschnittenes Kalbsfleisch in einer Kapern-Thunfischsauce"
+      },
+      {
+        "id": "28",
+        "name": "Tartara di Salmone",
+        "price": "€ 18,90",
+        "description": "Lachstatar mit Avocado, Dill und Limette"
+      },
+      {
+        "id": "29",
+        "name": "Carpaccio di Manzo",
+        "price": "€ 19,90",
+        "description": "Rindercarpaccio mit Champignons, Sellerie, Ruccola und Parmesankäse"
+      },
+      {
+        "id": "31",
+        "name": "Tartara di Manzo con tuorlo fritto",
+        "price": "€ 23,90",
+        "description": "Rindertatar mit Spiegeleigelb und Pizzaiola-Sauce-Mayonnaise."
+      },
+      {
+        "id": "33",
+        "name": "Gambas al ajillo",
+        "price": "€ 17,90",
+        "description": "Party-Garnelen mit Knoblauch und Öl"
+      },
+      {
+        "id": "34",
+        "name": "Bruschetta",
+        "price": "€ 10,50",
+        "description": "Geröstetes Brot mit Büffel-Mozzarella, Kirschtomaten und hausgemachtem Pesto"
+      },
+      {
+        "id": "35",
+        "name": "Bruschetta Mista",
+        "price": "€ 13,50",
+        "description": "Geröstetes Brot in drei verschiedenen Sorte"
+      },
+      {
+        "id": "37",
+        "name": "Insalata di Mare",
+        "price": "€ 24,90",
+        "description": "Meeresfrüchtesalat nach Art des Hause"
+      }
+    ]
+  },
+  {
+    "id": "pasta-risotto",
+    "name": "Pasta-Risotto",
+    "items": [
+      {
+        "id": "40",
+        "name": "Mezzelune Boscaiola",
+        "price": "€ 24,90",
+        "description": "Hausgemachte Ravioli mit Steinpilz-Füllung in verschidenen Pilzsaucen"
+      },
+      {
+        "id": "41",
+        "name": "Mezzelune Vegetariane",
+        "price": "€ 22,90",
+        "description": "Frische vegetarische Ravioloni, gefüllt mit Grillgemüse in einer Butter–Salbeisauce"
+      },
+      {
+        "id": "43",
+        "name": "Gnocconi al Tartufo",
+        "price": "€ 25,90",
+        "description": "Frische Riesengnocconi, gefüllt mit Trüffel in einer Butter-Parmesansauce, dazu geriebener Schwarztrüffel"
+      },
+      {
+        "id": "44",
+        "name": "Fiocchetti con Pere e crema di Tartufo",
+        "price": "€ 25,90",
+        "description": "Hausgemachte Nudeln mit Birne und Käsefüllung in einer Trüffelcremesauce, dazu geriebener Schwarztrüffel"
+      },
+      {
+        "id": "47",
+        "name": "Tortellone Nero",
+        "price": "€ 23,90",
+        "description": "Frische Schwarzetortelloni, gefüllt mit Lachs in einer Gambas-Hummersauce"
+      },
+      {
+        "id": "63",
+        "name": "Lasagna con Vitello e Ricotta",
+        "price": "€ 18,90",
+        "description": "mit Kalbsragout und Ricotta"
+      },
+      {
+        "id": "64",
+        "name": "Lasagna Vegetariana",
+        "price": "€ 17,90",
+        "description": "mit Tomatensauce und frischem Gemüse"
+      },
+      {
+        "id": "48",
+        "name": "Paella Valenciana (ab 2 Personen)",
+        "price": "€ 24,90 (pro Person)",
+        "description": "Spanisches Reisgericht mit Fleisch, Fisch und Gemüse"
+      },
+      {
+        "id": "49",
+        "name": "Paella Marisco (ab 2 Personen)",
+        "price": "€ 27,90 (pro person)",
+        "description": "Spanisches Reisgericht mit Fisch"
+      }
+    ]
+  },
+  {
+    "id": "salse-per-pasta",
+    "name": "Salse per Pasta",
+    "items": [
+      {
+        "id": "51",
+        "name": "Calamari e Funghi di Bosco",
+        "price": "€ 21,90",
+        "description": "baby Kalamari und Pfefferlinge"
+      },
+      {
+        "id": "53",
+        "name": "Carbonara",
+        "price": "€ 17,90",
+        "description": "mit Speck, Eier und Pecorino"
+      },
+      {
+        "id": "54",
+        "name": "Aglio, Olio e Peperoncino",
+        "price": "€ 15,90",
+        "description": "mit Knoblauch, Olivenöl und Pepperoni (scharf)"
+      },
+      {
+        "id": "55",
+        "name": "Arrabbiata",
+        "price": "€ 16,90",
+        "description": "mit Oliven, Pepperoni und scharfer Tomatensauce"
+      },
+      {
+        "id": "56",
+        "name": "Salmone e Zucchini",
+        "price": "€ 22,90",
+        "description": "mit Zucchini und Lachs in Safransauce"
+      },
+      {
+        "id": "58",
+        "name": "Cacio e Pepe",
+        "price": "€ 22,90",
+        "description": "Parmesan-Schwarzpfeffersauce vom Parmesan-Laib"
+      },
+      {
+        "id": "59",
+        "name": "Tartufo",
+        "price": "€ 26,90",
+        "description": "Trüffelbutter, Trüffelöl und Schwarzertrüffelscheiben vom Parmesan-Laib"
+      },
+      {
+        "id": "61",
+        "name": "Napoli e Burrata",
+        "price": "€ 18,90",
+        "description": "Tomatensauce mit Burrata-Mozzarella"
+      },
+      {
+        "id": "62",
+        "name": "Al Parmiggiano",
+        "price": "€ 22,90",
+        "description": "mit Butter-Parmesansauce vom Parmesan-Laib"
+      },
+      {
+        "id": "65",
+        "name": "Frutti di Mare",
+        "price": "€ 25,90",
+        "description": "mit Meeresfrüchten in Tomatensauce"
+      },
+      {
+        "id": "66",
+        "name": "Estate",
+        "price": "€ 21,90",
+        "description": "mit Gambas, Curry und Kokosmilch in Sahnesauce"
+      },
+      {
+        "id": "67",
+        "name": "Pollo e Funghi",
+        "price": "€ 20,90",
+        "description": "mit Hühnchen und Champignons in Sahne-Rahmsauce"
+      },
+      {
+        "id": "68",
+        "name": "Aglio, Olio e Gamberi",
+        "price": "€ 21,90",
+        "description": "Knoblauch, Öl, Partygarnelen und getrockneten Tomaten"
+      },
+      {
+        "id": "69",
+        "name": "Alla Chef",
+        "price": "€ 24,90",
+        "description": "mit Pffeferlingen und Rinderfiletspitzen in Tomatensauce"
+      },
+      {
+        "id": "45",
+        "name": "Ragout alla Bolognese",
+        "price": "€ 17,90",
+        "description": "Bologneseragout nach Chef-Art"
+      }
+    ]
+  },
+  {
+    "id": "carne",
+    "name": "Carne",
+    "items": [
+      {
+        "id": "78",
+        "name": "Cotoletta alla Milanese",
+        "price": "€ 26,90",
+        "description": "Kalbsschnitzel nach Wiener Art dazu Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "70",
+        "name": "Scaloppina ai Funghi",
+        "price": "€ 29,90",
+        "description": "Gebratene Kalbs Medaillons mit Champignons in Rahmsauce dazu Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "71",
+        "name": "Saltimbocca alla Romana",
+        "price": "€ 29,90",
+        "description": "Gebratene Kalbs Medaillons mit Salbei und Parmaschinken in einer Weißweinsauce, dazu Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "72",
+        "name": "Tagliata di Scottona",
+        "price": "€ 39,90",
+        "description": "Argentinisches Black Angus (250g) geschnitten auf Rucola mit Parmesan und Kirschtomaten, dazu Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "73",
+        "name": "Bistecca di Manzo",
+        "price": "€ 37,90",
+        "description": "Rinder Rumpsteak mit frischen mediterranen Kräutern, dazu Kartoffeln und Gemüse"
+      },
+      {
+        "id": "74",
+        "name": "Petto di Pollo",
+        "price": "€ 24,90",
+        "description": "Hähnchenbrust vom Grill mit frischen mediterranischen Kräutern mit Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "76",
+        "name": "Filetto alla Griglia",
+        "price": "€ 43,00",
+        "description": "Rinder Filet vom Grill mit mediterranen Kräutern, dazu Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "77",
+        "name": "Filetto Chateaubriand (ab 2 Personen)",
+        "price": "€ 49,90 (pro Person)",
+        "description": "Rinderfilet Chateaubriand mit Kartoffeln und Gemüse der Saison inkl. 2 Sauce auf Wünsch"
+      }
+    ]
+  },
+  {
+    "id": "pesce",
+    "name": "Pesce",
+    "items": [
+      {
+        "id": "84",
+        "name": "Filetto di Orata alla Provenzale",
+        "price": "€ 30,90",
+        "description": "Doradenfilet nach provenzalischer Art mit Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "80",
+        "name": "Salmone All´ Arancio",
+        "price": "€ 33,90",
+        "description": "Lachsfilet in einer Orangen-Kräutersauce mit Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "81",
+        "name": "Luccioperga al Vino Bianco",
+        "price": "€ 29,90",
+        "description": "Zanderfilet in leichter Kräuter-Weißweinsauce mit Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "82",
+        "name": "Gamberi alla Griglia",
+        "price": "€ 39,90",
+        "description": "Gegrillte Gambas mit Kartoffeln und Gemüse der Saison"
+      },
+      {
+        "id": "87",
+        "name": "Salmone con Gamberetti e Salsa All´Astice",
+        "price": "€ 34,90",
+        "description": "Lachs mit Partygarnelen und Hummersauce mit Kartoffeln und Gemüse der Saison"
+      }
+    ]
+  },
+  {
+    "id": "pinse",
+    "name": "Pinse",
+    "items": [
+      {
+        "id": "100",
+        "name": "Pinsa Margherita",
+        "price": "€ 15,90",
+        "description": "Tomaten und Mozzarella-Fiordilatte"
+      },
+      {
+        "id": "101",
+        "name": "Pinsa Toscana",
+        "price": "€ 17,90",
+        "description": "Tomaten, Mozzarella, Salami, Schinken, Champignons und Zwiebeln"
+      },
+      {
+        "id": "102",
+        "name": "Pinsa Speciale",
+        "price": "€ 19,90",
+        "description": "Mozzarella-Fiordilatte, Burrata, Mortadella aus Bologna, mit hausgemachtem Pesto und Pistazien"
+      },
+      {
+        "id": "103",
+        "name": "Pinsa Vegetariana",
+        "price": "€ 19,90",
+        "description": "Tomaten, gegrilltes Gemüse und Büffel–Mozzarella"
+      },
+      {
+        "id": "104",
+        "name": "Pinsa al Prosciutto di Parma",
+        "price": "€ 20,90",
+        "description": "Tomaten, Mozzarella-Fiordilatte, Parmaschinken, Rucola, Kirschtomaten und Parmesanraspeln"
+      },
+      {
+        "id": "105",
+        "name": "Pinsa alla Pescatore",
+        "price": "€ 22,90",
+        "description": "Tomaten, Mozzarella-Fiordilatte und Meeresfrüchte"
+      }
+    ]
+  },
+  {
+    "id": "dessert",
+    "name": "Dessert",
+    "items": [
+      {
+        "id": "110",
+        "name": "Sorbetto al Limone",
+        "price": "€ 11,90",
+        "description": "Zitronensorbet in Zitronenschale"
+      },
+      {
+        "id": "111",
+        "name": "Tiramisú",
+        "price": "€ 8,90",
+        "description": "auf Chef-Art"
+      },
+      {
+        "id": "112",
+        "name": "Tartufo Eis (Pistazien)",
+        "price": "€ 11,90",
+        "description": "halbgefrorene Pistatziencreme mit einem Zabaione-Kern"
+      },
+      {
+        "id": "113",
+        "name": "Tartufo Eis (Choco)",
+        "price": "€ 10,90",
+        "description": "halbgefrorene Schokoladencreme mit einem Zabaione-Kern"
+      },
+      {
+        "id": "114",
+        "name": "Cassata Eis",
+        "price": "€ 11,90",
+        "description": "auf Chef-Art"
+      },
+      {
+        "id": "116",
+        "name": "Souffle al Pistacchio",
+        "price": "€ 11,90",
+        "description": "Pistazien Küchlein mit flüssigem Pistatzienkern, warm serviert"
+      },
+      {
+        "id": "117",
+        "name": "Warmer Apfelstrudel mit vanillesoße",
+        "price": "€ 10,90"
+      }
+    ]
+  },
+  {
+    "id": "aperitivo",
+    "name": "Aperitivo",
+    "items": [
+      {
+        "id": "150",
+        "name": "Campari Soda oder Orange oder mit Gin...\b5cl",
+        "price": "8,10 €"
+      },
+      {
+        "id": "151",
+        "name": "Martini Rosso..................................................\b5cl",
+        "price": "7,10 €"
+      },
+      {
+        "id": "152",
+        "name": "Martini Bianco.................................................\b5cl",
+        "price": "7,10 €"
+      },
+      {
+        "id": "153",
+        "name": "Sherry Medium (halbtrocken).......................\b5cl",
+        "price": "7,10 €"
+      },
+      {
+        "id": "154",
+        "name": "Sherry Dolce (süß).........................................\b5cl",
+        "price": "7,10 €"
+      },
+      {
+        "id": "155",
+        "name": "Sherry secco (trocken ................................\b 5cl",
+        "price": "7,10 €"
+      },
+      {
+        "id": "156",
+        "name": "Aperol Soda oder Orange.............................\b 5cl",
+        "price": "8,10 €"
+      },
+      {
+        "id": "157",
+        "name": "Prosecco DOC..................................................\b0,1l",
+        "price": "7,60 €"
+      },
+      {
+        "id": "157.1",
+        "name": "Prosecco Flasche.........................................\b0,75l",
+        "price": "41,50 €"
+      },
+      {
+        "id": "158",
+        "name": "Aperol Spritz....................................................\b5cl",
+        "price": "10,10 €"
+      },
+      {
+        "id": "158.1",
+        "name": "Aperol Spritz Alkoholfrei................................\b5cl",
+        "price": "10,10 €"
+      },
+      {
+        "id": "159",
+        "name": "Crodino..............................................................\b5cl",
+        "price": "5,60 €"
+      },
+      {
+        "id": "160",
+        "name": "Sanbitter...........................................................\b5cl",
+        "price": "5,60 €"
+      },
+      {
+        "id": "161",
+        "name": "Hugo..................................................................\b5cl",
+        "price": "10,10 €"
+      },
+      {
+        "id": "161.1",
+        "name": "Hugo Alkoholfrei..............................................\b5cl",
+        "price": "10,10 €"
+      },
+      {
+        "id": "162",
+        "name": "Lillet..................................................................\b5cl",
+        "price": "10,10 €"
+      }
+    ]
+  },
+  {
+    "id": "alkoholfreie-getränke",
+    "name": "Alkoholfreie Getränke",
+    "items": [
+      {
+        "id": "130",
+        "name": "Coca Cola............................................................\b0,2l  0,33 fl",
+        "price": "3,60 €"
+      },
+      {
+        "id": "132",
+        "name": "Cola zero.............................................................\b0,2l  0,33 fl",
+        "price": "3,60 €"
+      },
+      {
+        "id": "133",
+        "name": "Fanta....................................................................\b0,2l  0,33 fl",
+        "price": "3,60 €"
+      },
+      {
+        "id": "134",
+        "name": "Mezzomix.............................................................\b0,2l  0,33 fl",
+        "price": "3,60 €"
+      },
+      {
+        "id": "135",
+        "name": "Sprite...................................................................\b0,2l  0,33 fl",
+        "price": "3,60 €"
+      },
+      {
+        "id": "136",
+        "name": "Mineralwasser mit Kohlensäure Pellegrino...........................\b0,25l",
+        "price": "3,60 €"
+      },
+      {
+        "id": "137",
+        "name": "Mineralwasser still Pellegrino.................................................\b0,25l",
+        "price": "3,60 €"
+      },
+      {
+        "id": "138",
+        "name": "Mineralwasser mit Kohlensäure Pellegrino..............................\b0,7l",
+        "price": "8,60 €"
+      },
+      {
+        "id": "139",
+        "name": "Mineralwasser still Pellegrino....................................................\b0,7l",
+        "price": "8,60 €"
+      },
+      {
+        "id": "147",
+        "name": "Tafelwasser Purezza...............................................................\b0,350l",
+        "price": "2,90 €"
+      },
+      {
+        "id": "147",
+        "name": "Tafelwasser Purezza....................................................................\b0,7l",
+        "price": "5,90 €"
+      },
+      {
+        "id": "140",
+        "name": "Apfelsaftschorle Rapps.....................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "141",
+        "name": "Johannesbeerschorle Rapps..............................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "141.1",
+        "name": "Johannesbeersaft Rapps...................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "142",
+        "name": "Apfelsaft Rapps.................................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "143",
+        "name": "Orangensaft Rapps............................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "144",
+        "name": "Bitter Lemon Schweppes.................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "145",
+        "name": "Tonic Water Schweppes...................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "146",
+        "name": "Ginger Ale Schweppes......................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "147",
+        "name": "Orangina......................................................................................\b0,25l",
+        "price": "3,60 €"
+      },
+      {
+        "id": "945",
+        "name": "Maracujasaft Rapps..........................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "946",
+        "name": "Maracujaschorle Rapps.....................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "944",
+        "name": "Ananassaft Rapps..............................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      },
+      {
+        "id": "944.1",
+        "name": "Ananasschorle Rapps.........................................\b0,2l    0,4l",
+        "price": "3,90 €"
+      }
+    ]
+  },
+  {
+    "id": "offene-weine",
+    "name": "Offene Weine",
+    "items": [
+      {
+        "id": "330",
+        "name": "Pinot Griggio ( Weiß )..................................\b0,25l",
+        "price": "7,30 €"
+      },
+      {
+        "id": "331",
+        "name": "Chardonny ( Weiß ).......................................\b0,25l",
+        "price": "7,30 €"
+      },
+      {
+        "id": "332",
+        "name": "Lugana ( Weiß )............................................\b0,25l",
+        "price": "8,80 €"
+      },
+      {
+        "id": "336",
+        "name": "Frizzantino ( Weiß Lieblich ).......................\b0,25l",
+        "price": "7,30 €"
+      },
+      {
+        "id": "338",
+        "name": "Weißweinschorle............................................\b0,25l",
+        "price": "5,80 €"
+      },
+      {
+        "id": "340",
+        "name": "Weißwein.........................................................\b0,10l",
+        "price": "5,30 €"
+      },
+      {
+        "id": "341",
+        "name": "Roséwein.........................................................\b0,25l",
+        "price": "7,30 €"
+      },
+      {
+        "id": "333",
+        "name": "Nero D´Avola ( Rot ).....................................\b0,25l",
+        "price": "7,30 €"
+      },
+      {
+        "id": "334",
+        "name": "Primitivo ( Rot )...........................................\b0,25l",
+        "price": "8,80 €"
+      },
+      {
+        "id": "335",
+        "name": "Merlot ( Rot )...............................................\b0,25l",
+        "price": "7,30 €"
+      },
+      {
+        "id": "337",
+        "name": "Lambrusco ( Rot Lieblich ).........................\b0,25l",
+        "price": "6,80 €"
+      },
+      {
+        "id": "342",
+        "name": "Montepulciano ( Rot )..................................\b0,25l",
+        "price": "8,30 €"
+      },
+      {
+        "id": "339",
+        "name": "Rotwein ( Rot ).............................................\b0,10l",
+        "price": "5,30 €"
+      }
+    ]
+  },
+  {
+    "id": "apfelwein",
+    "name": "Apfelwein",
+    "items": [
+      {
+        "id": "200",
+        "name": "Pils vom Fass (Bittburger)......................................\b 0,2l",
+        "price": "3,70 €"
+      },
+      {
+        "id": "201",
+        "name": "Pils vom Fass (Bittburger).....................................\b 0,4l",
+        "price": "5,70 €"
+      },
+      {
+        "id": "202.1",
+        "name": "Radler...........................................................................\b0,2l",
+        "price": "3,70 €"
+      },
+      {
+        "id": "202",
+        "name": "Radler..........................................................................\b0,4l",
+        "price": "5,70 €"
+      },
+      {
+        "id": "203",
+        "name": "Bier mit Cola..............................................................\b0,4l",
+        "price": "5,70 €"
+      },
+      {
+        "id": "204",
+        "name": "Hefeweizen vom Fass (Benedektiner L).................\b0,5l",
+        "price": "5,80 €"
+      },
+      {
+        "id": "205",
+        "name": "Weizenbier Dunkel (Benedektiner)............\b0,5l Flasche",
+        "price": "5,80 €"
+      },
+      {
+        "id": "206",
+        "name": "Weizenbier Kristall (Paulaner)...................\b0,5l Flasche",
+        "price": "5,80 €"
+      },
+      {
+        "id": "207",
+        "name": "Alkoholfreies Bier (Bitburger)..................\b0,33l Flasche",
+        "price": "5,10 €"
+      }
+    ]
+  },
+  {
+    "id": "biere",
+    "name": "Biere",
+    "items": [
+      {
+        "id": "1100.1",
+        "name": "Apfelwein Pur...........................\b0,25l  0,5l",
+        "price": "3,80 €"
+      },
+      {
+        "id": "1102.1",
+        "name": "Apfelwein sauergespritzt........\b0,25l  0,5l",
+        "price": "3,80 €"
+      },
+      {
+        "id": "1104.1",
+        "name": "Apfelwein süßgespritz.............\b0,25l  0,5l",
+        "price": "3,80 €"
+      }
+    ]
+  },
+  {
+    "id": "spirituosen",
+    "name": "Spirituosen",
+    "items": [
+      {
+        "id": "290",
+        "name": "Capuccino...................................................................\b",
+        "price": "3,60 €"
+      },
+      {
+        "id": "291",
+        "name": "Kaffee Americano......................................................\b",
+        "price": "3,10 €"
+      },
+      {
+        "id": "292",
+        "name": "Espresso.....................................................................\b",
+        "price": "2,80 €"
+      },
+      {
+        "id": "293",
+        "name": "Doppelter Espresso...................................................\b",
+        "price": "4,10 €"
+      },
+      {
+        "id": "293.1",
+        "name": "Doppelter Espresso Macchiato...............................\b",
+        "price": "4,40 €"
+      },
+      {
+        "id": "294",
+        "name": "Espresso Macciato....................................................\b",
+        "price": "3,10 €"
+      },
+      {
+        "id": "295",
+        "name": "Latte Macchiato........................................................\b",
+        "price": "4,60 €"
+      },
+      {
+        "id": "296",
+        "name": "Milchkaffee................................................................\b",
+        "price": "4,60 €"
+      },
+      {
+        "id": "297",
+        "name": "Tee..............................................................................\b",
+        "price": "3,30 €"
+      },
+      {
+        "id": "298.1",
+        "name": "Kakao..........................................................................\b",
+        "price": "5,10 €"
+      },
+      {
+        "id": "400",
+        "name": "Sierra Tequilla (gold).....................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "401",
+        "name": "Sierra Tequilla (silber)...................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "402",
+        "name": "Sambuca..........................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "403",
+        "name": "Amaretto..........................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "404",
+        "name": "Vodka...............................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "405",
+        "name": "Grappa della Casa..........................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "406",
+        "name": "Grappa Prosecco.............................................\b2 cl",
+        "price": "9,10 €"
+      },
+      {
+        "id": "407",
+        "name": "Averna..............................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "408",
+        "name": "Ramazotti........................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "409",
+        "name": "Jägermeister...................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "410",
+        "name": "Fernet Branca................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "411",
+        "name": "Carlos Primero...............................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "412",
+        "name": "103...................................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "413",
+        "name": "Cardinal Mendoza..........................................\b2 cl",
+        "price": "10,10 €"
+      },
+      {
+        "id": "415",
+        "name": "Cynar...............................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "416",
+        "name": "108...................................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "417",
+        "name": "43.....................................................................\b2 cl",
+        "price": "6,10 €"
+      },
+      {
+        "id": "418",
+        "name": "Vecchia Romagna...........................................\b2 cl",
+        "price": "8,10 €"
+      }
+    ]
+  },
+  {
+    "id": "longdrink",
+    "name": "Longdrink",
+    "items": [
+      {
+        "id": "4010",
+        "name": "Jacky Cola...............................................................\b",
+        "price": "10,10 €"
+      },
+      {
+        "id": "4011",
+        "name": "Vodka Lemon...........................................................\b",
+        "price": "10,10 €"
+      },
+      {
+        "id": "4012",
+        "name": "Bacardi Cola............................................................\b",
+        "price": "11,10 €"
+      },
+      {
+        "id": "4013",
+        "name": "Gin Tonic..................................................................\b",
+        "price": "10,10 €"
+      },
+      {
+        "id": "4014",
+        "name": "Gin Spezial...............................................................\b",
+        "price": "14,10 €"
+      }
+    ]
+  }
+]

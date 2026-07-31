@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Trattoria Assistent</title>
+  <link rel="stylesheet" href="/static/widget.css">
+</head>
+<body>
+  <div class="widget">
+    <header class="widget-header">
+      <div class="header-info">
+        <div class="header-icon" aria-hidden="true">🍝</div>
+        <div>
+          <h1>La Trattoria</h1>
+          <p id="header-subtitle">KI-Assistent · Bad Nauheim</p>
+        </div>
+      </div>
+      <button id="close-btn" class="icon-btn" type="button" aria-label="Chat schließen" title="Schließen">×</button>
+    </header>
+
+    <section id="chat-view" class="panel panel-active">
+      <main id="messages" class="messages" aria-live="polite">
+        <div class="msg assistant">
+          <div class="bubble">
+            Buongiorno! Fragen Sie mich gern zu Speisekarte, Allergenen oder Öffnungszeiten — oder reservieren Sie direkt einen Tisch mit Vorauswahl aus der Speisekarte.
+          </div>
+        </div>
+      </main>
+
+      <div class="quick-actions">
+        <button type="button" class="quick-btn" data-prompt="Welche vegetarischen Gerichte habt ihr?">Vegetarisch</button>
+        <button type="button" class="quick-btn" data-prompt="Was sind eure Öffnungszeiten?">Öffnungszeiten</button>
+        <button type="button" class="quick-btn" id="reservation-btn">Reservierung</button>
+      </div>
+
+      <form id="chat-form" class="input-row">
+        <textarea id="message-input" rows="1" placeholder="Ihre Frage..." required></textarea>
+        <button id="send-btn" type="submit" aria-label="Senden">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </form>
+    </section>
+
+    <section id="reservation-view" class="panel">
+      <div class="reservation-toolbar">
+        <button id="back-to-chat" type="button" class="back-btn">← Chat</button>
+        <span id="step-label" class="step-label">Schritt 1: Speisekarte</span>
+        <span id="cart-badge" class="cart-badge">0</span>
+      </div>
+
+      <!-- Step 1: Menu -->
+      <div id="step-menu" class="reservation-step step-active">
+        <p class="reservation-hint">Wählen Sie optional Gerichte &amp; Getränke für Ihre Reservierung.</p>
+        <div id="menu-loading" class="menu-loading" hidden>Lade Speisekarte...</div>
+        <div id="menu-error" class="reservation-error" hidden></div>
+        <div id="category-tabs" class="category-tabs"></div>
+        <div id="menu-items" class="menu-items"></div>
+        <div class="step-footer">
+          <button id="to-checkout-btn" type="button" class="primary-btn">Weiter zur Reservierung</button>
+        </div>
+      </div>
+
+      <!-- Step 2: Cart + Form -->
+      <div id="step-checkout" class="reservation-step">
+        <button id="back-to-menu" type="button" class="back-btn step-back">← Zurück zur Speisekarte</button>
+
+        <div id="cart-section" class="cart-section">
+          <h2 class="section-title">Ihre Auswahl</h2>
+          <div id="cart-list" class="cart-list"></div>
+          <p id="cart-total" class="cart-total"></p>
+          <p id="cart-empty-hint" class="cart-empty-hint" hidden>Keine Gerichte ausgewählt — Sie können trotzdem reservieren.</p>
+        </div>
+
+        <form id="reservation-form" class="reservation-form">
+          <h2 class="section-title">Reservierungsdaten</h2>
+          <label>
+            Name *
+            <input type="text" name="name" required placeholder="Max Mustermann" autocomplete="name">
+          </label>
+          <label>
+            Telefon *
+            <input type="tel" name="phone" required placeholder="06032 123456" autocomplete="tel">
+          </label>
+          <div class="form-row">
+            <label>
+              Datum *
+              <input type="date" name="date" required>
+            </label>
+            <label>
+              Uhrzeit *
+              <input type="time" name="time" required>
+            </label>
+          </div>
+          <label>
+            Personen *
+            <input type="number" name="guests" min="1" max="50" value="2" required>
+          </label>
+          <label>
+            Hinweis (optional)
+            <textarea name="note" rows="2" placeholder="Terrasse, Kinderstuhl, Allergie..."></textarea>
+          </label>
+          <p id="reservation-error" class="reservation-error" hidden></p>
+          <button type="submit" class="primary-btn submit-reservation-btn">Reservierung senden</button>
+          <p class="reservation-phone">
+            Oder telefonisch: <a href="tel:060329359977">06032 9359977</a>
+          </p>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script src="/static/widget.js?v=4"></script>
+</body>
+</html>
